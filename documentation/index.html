@@ -1,0 +1,669 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>SimpleFlex HTML template documentaiton</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;SimpleFlex&rdquo; Documentation by <a href="http://modernwebtemplates.com"></a>&ldquo;MW Templates&rdquo;</a> v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;SimpleFlex HTML Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-10 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 02/05/2014<br>
+					By: MW Templates<br>
+					Email: <a href="mailto:support@modernwebtemplates.com">support@modernwebtemplates.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-8 last">
+				<p class="prepend-top append-0">Thank you for purchasing our HTML Template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/mwtemplates">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+      		<li><a href="#widgetsSetup">Setup Google Map, Flickr, Twitter, Subscribe and Contact forms</a></li>
+			<li><a href="#psdFiles">PSD Files</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>This HTML Template based on <a href="http://getbootstrap.com">Twitter Bootstrap v3</a>. It is compatible with a IE8 browser and all other modern browsers.</p>
+		<p>It has several main sections with appropriate IDs, that may or may not present on page (depenging on certain page). They are:</p> 
+		<ul>
+    <li><strong>"header"</strong> - contains a Small Logo, Main Menu and Social Icons.</li>
+	<li><strong>"mainslider"</strong> section is used for Flex Slider on a Home Page.</li>
+    <li><strong>"features"</strong> section contains Main Features Teasers.</li>
+    <li><strong>"services"</strong> section contains teasers with services short description.</li>
+    <li><strong>"progress"</strong> section contains an Icon Teasers.</li>
+    <li><strong>"prices"</strong> section contains price tables.</li>
+	<li><strong>"skills"</strong> section contains PieChart With skills.</li>
+	<li><strong>"testimonials"</strong> section contains carousel with slogans or client testimonials.</li>
+	<li><strong>"process"</strong> section slider with latest works.</li>
+	<li><strong>"team"</strong> section contains team members photos and social links.</li>
+	<li><strong>"tweets"</strong> section contains twitter widget slider.</li>
+	<li><strong>"portfolio"</strong> section contains a FullWidth Isotope Portfolio.</li>
+	<li><strong>"belowcontent"</strong> section contains a "From Blog" widget.</li>
+	<li><strong>"info"</strong> section contains an email and address information.</li>
+	<li><strong>"map_wrap"</strong> section contains Google map.</li>
+	<li><strong>"contact"</strong> section contains a contact form.</li>
+	<li><strong>"footer"</strong> section has a footer widgets - text, recent posts, subscribe form and Flickr widget.</li>
+	<li><strong>"copyright"</strong> section contains a copyright information and a Big Logo.</li>
+	<li><strong>"preloader"</strong> div element is a page preloader. Remove it if you do not need a preloader on your pages.</li>
+	<li><strong>"middle"</strong> section - is a main section on subpages.</li>
+		</ul>
+		
+		<img alt="HTML Structure" style="max-width:100%; padding:20px 0 40px;" src="assets/images/HTML_Structure.png">
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>There are three main CSS files in this HTML Template. The first one is a standard Bootstrap v3 CSS file. Second css file is "animation.css" library, which contains various animation classes that are used in this template.</p> 
+
+		<p>The third file is <strong>"main.css"</strong> and it contains all of the specific stylings for the pages. The file is separated into following sections:</p>  
+
+
+		<p>
+			<ul>
+				<li><strong>/*override bootstrap*/</strong> - line 3 - Here we overriding some of predefined bootstrap styles.</li>
+				<li><strong>/*vetrical*/</strong> - line 130 - Here we set up a vertical margins and paddings for main sections of our HTML Temlpate.</li>
+				<li><strong>/*main*/</strong> - line 166 - In this section we set up a base template styles, such as links color, general section styles, theme styled buttons, utility classes etc.</li>
+				<li><strong>/* Menu */</strong> - line 539 - In this section we styling our Main Menu.</li>
+				<li><strong>/* jQuery FlexSlider *</strong> - line 814 - Here you can find styles for Flex Slider, that we using in this template.</li>
+        <li><strong>/*totop*/</strong> - line 1048 - In this section you'll find a styles for ToTop button.</li>
+				<li><strong>/*horizontal slider*/</strong> - line 1095 - In this section we set styles for horizontal slider.</li>
+        <li><strong>/*gallery*/</strong> - line 1289 - In this section we define styles for Gallery page that uses Isotope jQuery plugin.</li>
+        <li><strong>/*blog*/</strong> - line 1414 - This section contains styles for a blog page and a single post page.</li>
+        <li><strong>/*widgets*/</strong> - line 1596 - In this sections we styled all major blocks.</li>
+        <li><strong>/*page preloader*/</strong> - line 1960 - In this section are styles for prettyPhoto LightBox plugin.</li>
+        <li><strong>/*teaser icons*/</strong> - line 1983 - This section responsible for decorative icons that we use in our template. You can find all of these icons in this documentation.</li>
+        <li><strong>/*social icons*/</strong> - line 2343 - This section responsible for social icons that we use in our template. You can find all of these icons in this documentation.</li>
+        <li><strong>/*prettyPhoto*/</strong> - line 2605 - In this section are styles for prettyPhoto LightBox plugin.</li>
+      </ul>
+		</p>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+		<p>If you want to change a main color for this template, just replase all instances of "#ff6f6f" with a hex color value that you want in the "main.css" file.</p>
+
+		<hr>
+		<p>Icons for Teasers and Social icons included:</p>
+
+      <h2>MW Icons</h2>
+<div class="span-6">
+<p><i class="rt-icon-ok"></i>.rt-icon-ok</p>
+<p><i class="rt-icon-youtube"></i>.rt-icon-youtube</p>
+<p><i class="rt-icon-times"></i>.rt-icon-times</p>
+<p><i class="rt-icon-image"></i>.rt-icon-image</p>
+<p><i class="rt-icon-phone"></i>.rt-icon-phone</p>
+<p><i class="rt-icon-heart"></i>.rt-icon-heart</p>
+<p><i class="rt-icon-microphone"></i>.rt-icon-microphone</p>
+<p><i class="rt-icon-rss-outline"></i>.rt-icon-rss-outline</p>
+<p><i class="rt-icon-message"></i>.rt-icon-message</p>
+<p><i class="rt-icon-location-outline"></i>.rt-icon-location-outline</p>
+<p><i class="rt-icon-link-outline"></i>.rt-icon-link-outline</p>
+<p><i class="rt-icon-image-outline"></i>.rt-icon-image-outline</p>
+<p><i class="rt-icon-export-outline"></i>.rt-icon-export-outline</p>
+<p><i class="rt-icon-cross"></i>.rt-icon-cross</p>
+<p><i class="rt-icon-star-outline"></i>.rt-icon-star-outline</p>
+<p><i class="rt-icon-mail"></i>.rt-icon-mail</p>
+<p><i class="rt-icon-heart-outline"></i>.rt-icon-heart-outline</p>
+<p><i class="rt-icon-flash-outline"></i>.rt-icon-flash-outline</p>
+<p><i class="rt-icon-arrow-move-outline"></i>.rt-icon-arrow-move-outline</p>
+<p><i class="rt-icon-watch"></i>.rt-icon-watch</p>
+<p><i class="rt-icon-time"></i>.rt-icon-time</p>
+<p><i class="rt-icon-location-arrow-outline"></i>.rt-icon-location-arrow-outline</p>
+<p><i class="rt-icon-attachment-outline"></i>.rt-icon-attachment-outline</p>
+<p><i class="rt-icon-user-outline"></i>.rt-icon-user-outline</p>
+<p><i class="rt-icon-lock-closed-outline"></i>.rt-icon-lock-closed-outline</p>
+<p><i class="rt-icon-lock-open-outline"></i>.rt-icon-lock-open-outline</p>
+<p><i class="rt-icon-group-outline"></i>.rt-icon-group-outline</p>
+<p><i class="rt-icon-chart-pie-outline"></i>.rt-icon-chart-pie-outline</p>
+<p><i class="rt-icon-video-outline"></i>.rt-icon-video-outline</p>
+<p><i class="rt-icon-map"></i>.rt-icon-map</p>
+<p><i class="rt-icon-key-outline"></i>.rt-icon-key-outline</p>
+<p><i class="rt-icon-infinity-outline"></i>.rt-icon-infinity-outline</p>
+<p><i class="rt-icon-globe-outline"></i>.rt-icon-globe-outline</p>
+<p><i class="rt-icon-eye-outline"></i>.rt-icon-eye-outline</p>
+<p><i class="rt-icon-cog-outline"></i>.rt-icon-cog-outline</p>
+<p><i class="rt-icon-camera-outline"></i>.rt-icon-camera-outline</p>
+<p><i class="rt-icon-scissors-outline"></i>.rt-icon-scissors-outline</p>
+<p><i class="rt-icon-refresh-outline"></i>.rt-icon-refresh-outline</p>
+<p><i class="rt-icon-zoom-outline"></i>.rt-icon-zoom-outline</p>
+<p><i class="rt-icon-pin-outline"></i>.rt-icon-pin-outline</p>
+<p><i class="rt-icon-message-typing"></i>.rt-icon-message-typing</p>
+<p><i class="rt-icon-folder"></i>.rt-icon-folder</p>
+<p><i class="rt-icon-pencil"></i>.rt-icon-pencil</p>
+<p><i class="rt-icon-brush"></i>.rt-icon-brush</p>
+<p><i class="rt-icon-thumbs-up"></i>.rt-icon-thumbs-up</p>
+<p><i class="rt-icon-pen"></i>.rt-icon-pen</p>
+<p><i class="rt-icon-calender-outline"></i>.rt-icon-calender-outline</p>
+<p><i class="rt-icon-business-card"></i>.rt-icon-business-card</p>
+<p><i class="rt-icon-calculator"></i>.rt-icon-calculator</p>
+<p><i class="rt-icon-clipboard"></i>.rt-icon-clipboard</p>
+<p><i class="rt-icon-gift"></i>.rt-icon-gift</p>
+<p><i class="rt-icon-bell"></i>.rt-icon-bell</p>
+<p><i class="rt-icon-anchor-outline"></i>.rt-icon-anchor-outline</p>
+<p><i class="rt-icon-power-outline"></i>.rt-icon-power-outline</p>
+<p><i class="rt-icon-shopping-bag"></i>.rt-icon-shopping-bag</p>
+<p><i class="rt-icon-device-tablet"></i>.rt-icon-device-tablet</p>
+<p><i class="rt-icon-device-phone"></i>.rt-icon-device-phone</p>
+<p><i class="rt-icon-device-laptop"></i>.rt-icon-device-laptop</p>
+<p><i class="rt-icon-device-desktop"></i>.rt-icon-device-desktop</p>
+<p><i class="rt-icon-spanner-outline"></i>.rt-icon-spanner-outline</p>
+<p><i class="rt-icon-puzzle-outline"></i>.rt-icon-puzzle-outline</p>
+<p><i class="rt-icon-printer"></i>.rt-icon-printer</p>
+<p><i class="rt-icon-lightbulb"></i>.rt-icon-lightbulb</p>
+<p><i class="rt-icon-flag-outline"></i>.rt-icon-flag-outline</p>
+<p><i class="rt-icon-contacts"></i>.rt-icon-contacts</p>
+<p><i class="rt-icon-weather-stormy"></i>.rt-icon-weather-stormy</p>
+<p><i class="rt-icon-weather-shower"></i>.rt-icon-weather-shower</p>
+<p><i class="rt-icon-weather-partly-sunny"></i>.rt-icon-weather-partly-sunny</p>
+<p><i class="rt-icon-weather-downpour"></i>.rt-icon-weather-downpour</p>
+<p><i class="rt-icon-weather-cloudy"></i>.rt-icon-weather-cloudy</p>
+<p><i class="rt-icon-plane-outline"></i>.rt-icon-plane-outline</p>
+<p><i class="rt-icon-phone-outline"></i>.rt-icon-phone-outline</p>
+<p><i class="rt-icon-microphone-outline"></i>.rt-icon-microphone-outline</p>
+<p><i class="rt-icon-weather-sunny"></i>.rt-icon-weather-sunny</p>
+<p><i class="rt-icon-weather-snow"></i>.rt-icon-weather-snow</p>
+<p><i class="rt-icon-weather-night"></i>.rt-icon-weather-night</p>
+<p><i class="rt-icon-wine"></i>.rt-icon-wine</p>
+<p><i class="rt-icon-tags"></i>.rt-icon-tags</p>
+<p><i class="rt-icon-headphones"></i>.rt-icon-headphones</p>
+<p><i class="rt-icon-plug"></i>.rt-icon-plug</p>
+<p><i class="rt-icon-credit-card"></i>.rt-icon-credit-card</p>
+<p><i class="rt-icon-coffee"></i>.rt-icon-coffee</p>
+<p><i class="rt-icon-book"></i>.rt-icon-book</p>
+<p><i class="rt-icon-beer"></i>.rt-icon-beer</p>
+<p><i class="rt-icon-tree"></i>.rt-icon-tree</p>
+<p><i class="rt-icon-thermometer"></i>.rt-icon-thermometer</p>
+<p><i class="rt-icon-messages"></i>.rt-icon-messages</p>
+<p><i class="rt-icon-shopping-cart"></i>.rt-icon-shopping-cart</p>
+<p><i class="rt-icon-leaf"></i>.rt-icon-leaf</p>
+<p><i class="rt-icon-volume"></i>.rt-icon-volume</p>
+<p><i class="rt-icon-microphone2"></i>.rt-icon-microphone2</p>
+<p><i class="rt-icon-paperclip"></i>.rt-icon-paperclip</p>
+<p><i class="rt-icon-trashcan"></i>.rt-icon-trashcan</p>
+<p><i class="rt-icon-search"></i>.rt-icon-search</p>
+<p><i class="rt-icon-chat"></i>.rt-icon-chat</p>
+<p><i class="rt-icon-calendar"></i>.rt-icon-calendar</p>
+<p><i class="rt-icon-bookmark"></i>.rt-icon-bookmark</p>
+<p><i class="rt-icon-email"></i>.rt-icon-email</p>
+<p><i class="rt-icon-heart2"></i>.rt-icon-heart2</p>
+<p><i class="rt-icon-cloud"></i>.rt-icon-cloud</p>
+<p><i class="rt-icon-book2"></i>.rt-icon-book2</p>
+<p><i class="rt-icon-star"></i>.rt-icon-star</p>
+<p><i class="rt-icon-clock"></i>.rt-icon-clock</p>
+<p><i class="rt-icon-users"></i>.rt-icon-users</p>
+<p><i class="rt-icon-user"></i>.rt-icon-user</p>
+<p><i class="rt-icon-bullhorn"></i>.rt-icon-bullhorn</p>
+<p><i class="rt-icon-diamond"></i>.rt-icon-diamond</p>
+<p><i class="rt-icon-drink"></i>.rt-icon-drink</p>
+<p><i class="rt-icon-shorts"></i>.rt-icon-shorts</p>
+<p><i class="rt-icon-syringe"></i>.rt-icon-syringe</p>
+</div>
+<div class="span-6">
+<p><i class="rt-icon-barbell"></i>.rt-icon-barbell</p>
+<p><i class="rt-icon-chart"></i>.rt-icon-chart</p>
+<p><i class="rt-icon-pencil2"></i>.rt-icon-pencil2</p>
+<p><i class="rt-icon-newspaper"></i>.rt-icon-newspaper</p>
+<p><i class="rt-icon-earth"></i>.rt-icon-earth</p>
+<p><i class="rt-icon-clock2"></i>.rt-icon-clock2</p>
+<p><i class="rt-icon-comment"></i>.rt-icon-comment</p>
+<p><i class="rt-icon-chat2"></i>.rt-icon-chat2</p>
+<p><i class="rt-icon-speaker"></i>.rt-icon-speaker</p>
+<p><i class="rt-icon-heart3"></i>.rt-icon-heart3</p>
+<p><i class="rt-icon-list"></i>.rt-icon-list</p>
+<p><i class="rt-icon-edit"></i>.rt-icon-edit</p>
+<p><i class="rt-icon-trash"></i>.rt-icon-trash</p>
+<p><i class="rt-icon-briefcase"></i>.rt-icon-briefcase</p>
+<p><i class="rt-icon-calendar2"></i>.rt-icon-calendar2</p>
+<p><i class="rt-icon-inbox"></i>.rt-icon-inbox</p>
+<p><i class="rt-icon-google-plus"></i>.rt-icon-google-plus</p>
+<p><i class="rt-icon-instagram"></i>.rt-icon-instagram</p>
+<p><i class="rt-icon-user2"></i>.rt-icon-user2</p>
+<p><i class="rt-icon-users2"></i>.rt-icon-users2</p>
+<p><i class="rt-icon-archive"></i>.rt-icon-archive</p>
+<p><i class="rt-icon-desktop"></i>.rt-icon-desktop</p>
+<p><i class="rt-icon-sent"></i>.rt-icon-sent</p>
+<p><i class="rt-icon-share"></i>.rt-icon-share</p>
+<p><i class="rt-icon-film"></i>.rt-icon-film</p>
+<p><i class="rt-icon-tag"></i>.rt-icon-tag</p>
+<p><i class="rt-icon-email2"></i>.rt-icon-email2</p>
+<p><i class="rt-icon-picture"></i>.rt-icon-picture</p>
+<p><i class="rt-icon-frame"></i>.rt-icon-frame</p>
+<p><i class="rt-icon-locked"></i>.rt-icon-locked</p>
+<p><i class="rt-icon-pin"></i>.rt-icon-pin</p>
+<p><i class="rt-icon-search2"></i>.rt-icon-search2</p>
+<p><i class="rt-icon-home"></i>.rt-icon-home</p>
+<p><i class="rt-icon-cart"></i>.rt-icon-cart</p>
+<p><i class="rt-icon-camera"></i>.rt-icon-camera</p>
+<p><i class="rt-icon-compass"></i>.rt-icon-compass</p>
+<p><i class="rt-icon-cloud2"></i>.rt-icon-cloud2</p>
+<p><i class="rt-icon-grid"></i>.rt-icon-grid</p>
+<p><i class="rt-icon-popup"></i>.rt-icon-popup</p>
+<p><i class="rt-icon-home2"></i>.rt-icon-home2</p>
+<p><i class="rt-icon-light-bulb"></i>.rt-icon-light-bulb</p>
+<p><i class="rt-icon-store"></i>.rt-icon-store</p>
+<p><i class="rt-icon-anchor"></i>.rt-icon-anchor</p>
+<p><i class="rt-icon-book3"></i>.rt-icon-book3</p>
+<p><i class="rt-icon-sound-alt"></i>.rt-icon-sound-alt</p>
+<p><i class="rt-icon-inbox2"></i>.rt-icon-inbox2</p>
+<p><i class="rt-icon-inbox-alt"></i>.rt-icon-inbox-alt</p>
+<p><i class="rt-icon-envelope"></i>.rt-icon-envelope</p>
+<p><i class="rt-icon-compose"></i>.rt-icon-compose</p>
+<p><i class="rt-icon-chat-alt-stroke"></i>.rt-icon-chat-alt-stroke</p>
+<p><i class="rt-icon-rss"></i>.rt-icon-rss</p>
+<p><i class="rt-icon-cog"></i>.rt-icon-cog</p>
+<p><i class="rt-icon-pin2"></i>.rt-icon-pin2</p>
+<p><i class="rt-icon-link"></i>.rt-icon-link</p>
+<p><i class="rt-icon-key-stroke"></i>.rt-icon-key-stroke</p>
+<p><i class="rt-icon-lightbulb2"></i>.rt-icon-lightbulb2</p>
+<p><i class="rt-icon-compass2"></i>.rt-icon-compass2</p>
+<p><i class="rt-icon-book-alt2"></i>.rt-icon-book-alt2</p>
+<p><i class="rt-icon-book4"></i>.rt-icon-book4</p>
+<p><i class="rt-icon-book-alt"></i>.rt-icon-book-alt</p>
+<p><i class="rt-icon-pen-alt-stroke"></i>.rt-icon-pen-alt-stroke</p>
+<p><i class="rt-icon-layers"></i>.rt-icon-layers</p>
+<p><i class="rt-icon-paperclip2"></i>.rt-icon-paperclip2</p>
+<p><i class="rt-icon-fork"></i>.rt-icon-fork</p>
+<p><i class="rt-icon-uniF756"></i>.rt-icon-uniF756</p>
+<p><i class="rt-icon-uniF765"></i>.rt-icon-uniF765</p>
+<p><i class="rt-icon-uniF794"></i>.rt-icon-uniF794</p>
+<p><i class="rt-icon-uniF56B"></i>.rt-icon-uniF56B</p>
+<p><i class="rt-icon-fish"></i>.rt-icon-fish</p>
+<p><i class="rt-icon-cupcake"></i>.rt-icon-cupcake</p>
+<p><i class="rt-icon-pizza"></i>.rt-icon-pizza</p>
+<p><i class="rt-icon-cherry"></i>.rt-icon-cherry</p>
+<p><i class="rt-icon-mushroom"></i>.rt-icon-mushroom</p>
+<p><i class="rt-icon-bone"></i>.rt-icon-bone</p>
+<p><i class="rt-icon-steak"></i>.rt-icon-steak</p>
+<p><i class="rt-icon-bottle"></i>.rt-icon-bottle</p>
+<p><i class="rt-icon-restaurantmenu"></i>.rt-icon-restaurantmenu</p>
+<p><i class="rt-icon-coffeebean"></i>.rt-icon-coffeebean</p>
+<p><i class="rt-icon-chocolate"></i>.rt-icon-chocolate</p>
+<p><i class="rt-icon-raspberry"></i>.rt-icon-raspberry</p>
+<p><i class="rt-icon-raspberrypi"></i>.rt-icon-raspberrypi</p>
+<p><i class="rt-icon-birthday"></i>.rt-icon-birthday</p>
+<p><i class="rt-icon-sun"></i>.rt-icon-sun</p>
+<p><i class="rt-icon-moon"></i>.rt-icon-moon</p>
+<p><i class="rt-icon-cloudy"></i>.rt-icon-cloudy</p>
+<p><i class="rt-icon-cloud3"></i>.rt-icon-cloud3</p>
+<p><i class="rt-icon-cloud4"></i>.rt-icon-cloud4</p>
+<p><i class="rt-icon-lightning"></i>.rt-icon-lightning</p>
+<p><i class="rt-icon-rainy"></i>.rt-icon-rainy</p>
+<p><i class="rt-icon-snowy"></i>.rt-icon-snowy</p>
+<p><i class="rt-icon-mobile"></i>.rt-icon-mobile</p>
+<p><i class="rt-icon-ipod"></i>.rt-icon-ipod</p>
+<p><i class="rt-icon-monitor"></i>.rt-icon-monitor</p>
+<p><i class="rt-icon-laptop"></i>.rt-icon-laptop</p>
+<p><i class="rt-icon-window"></i>.rt-icon-window</p>
+<p><i class="rt-icon-mouse"></i>.rt-icon-mouse</p>
+<p><i class="rt-icon-quote"></i>.rt-icon-quote</p>
+<p><i class="rt-icon-quote2"></i>.rt-icon-quote2</p>
+<p><i class="rt-icon-microphone3"></i>.rt-icon-microphone3</p>
+<p><i class="rt-icon-cog2"></i>.rt-icon-cog2</p>
+<p><i class="rt-icon-gamepad"></i>.rt-icon-gamepad</p>
+<p><i class="rt-icon-graduate"></i>.rt-icon-graduate</p>
+<p><i class="rt-icon-lab"></i>.rt-icon-lab</p>
+<p><i class="rt-icon-tie"></i>.rt-icon-tie</p>
+<p><i class="rt-icon-heart4"></i>.rt-icon-heart4</p>
+<p><i class="rt-icon-cloud5"></i>.rt-icon-cloud5</p>
+<p><i class="rt-icon-star2"></i>.rt-icon-star2</p>
+<p><i class="rt-icon-tv"></i>.rt-icon-tv</p>
+<p><i class="rt-icon-sound"></i>.rt-icon-sound</p>
+<p><i class="rt-icon-video"></i>.rt-icon-video</p>
+<p><i class="rt-icon-trash2"></i>.rt-icon-trash2</p>
+</div>
+<div class="span-6">
+<p><i class="rt-icon-user3"></i>.rt-icon-user3</p>
+<p><i class="rt-icon-key"></i>.rt-icon-key</p>
+<p><i class="rt-icon-search3"></i>.rt-icon-search3</p>
+<p><i class="rt-icon-eye"></i>.rt-icon-eye</p>
+<p><i class="rt-icon-bubble"></i>.rt-icon-bubble</p>
+<p><i class="rt-icon-stack"></i>.rt-icon-stack</p>
+<p><i class="rt-icon-cup"></i>.rt-icon-cup</p>
+<p><i class="rt-icon-phone2"></i>.rt-icon-phone2</p>
+<p><i class="rt-icon-news"></i>.rt-icon-news</p>
+<p><i class="rt-icon-mail2"></i>.rt-icon-mail2</p>
+<p><i class="rt-icon-like"></i>.rt-icon-like</p>
+<p><i class="rt-icon-photo"></i>.rt-icon-photo</p>
+<p><i class="rt-icon-note"></i>.rt-icon-note</p>
+<p><i class="rt-icon-food"></i>.rt-icon-food</p>
+<p><i class="rt-icon-t-shirt"></i>.rt-icon-t-shirt</p>
+<p><i class="rt-icon-fire"></i>.rt-icon-fire</p>
+<p><i class="rt-icon-clip"></i>.rt-icon-clip</p>
+<p><i class="rt-icon-shop"></i>.rt-icon-shop</p>
+<p><i class="rt-icon-calendar3"></i>.rt-icon-calendar3</p>
+<p><i class="rt-icon-wallet"></i>.rt-icon-wallet</p>
+<p><i class="rt-icon-vynil"></i>.rt-icon-vynil</p>
+<p><i class="rt-icon-truck"></i>.rt-icon-truck</p>
+<p><i class="rt-icon-world"></i>.rt-icon-world</p>
+<p><i class="rt-icon-settings"></i>.rt-icon-settings</p>
+<p><i class="rt-icon-camera2"></i>.rt-icon-camera2</p>
+<p><i class="rt-icon-tag2"></i>.rt-icon-tag2</p>
+<p><i class="rt-icon-lock"></i>.rt-icon-lock</p>
+<p><i class="rt-icon-bulb"></i>.rt-icon-bulb</p>
+<p><i class="rt-icon-pen2"></i>.rt-icon-pen2</p>
+<p><i class="rt-icon-diamond2"></i>.rt-icon-diamond2</p>
+<p><i class="rt-icon-display"></i>.rt-icon-display</p>
+<p><i class="rt-icon-location"></i>.rt-icon-location</p>
+<p><i class="rt-icon-clock3"></i>.rt-icon-clock3</p>
+<p><i class="rt-icon-paperplane"></i>.rt-icon-paperplane</p>
+<p><i class="rt-icon-params"></i>.rt-icon-params</p>
+<p><i class="rt-icon-banknote"></i>.rt-icon-banknote</p>
+<p><i class="rt-icon-data"></i>.rt-icon-data</p>
+<p><i class="rt-icon-music"></i>.rt-icon-music</p>
+<p><i class="rt-icon-megaphone"></i>.rt-icon-megaphone</p>
+<p><i class="rt-icon-study"></i>.rt-icon-study</p>
+<p><i class="rt-icon-lab2"></i>.rt-icon-lab2</p>
+<p><i class="rt-icon-chat3"></i>.rt-icon-chat3</p>
+<p><i class="rt-icon-archive2"></i>.rt-icon-archive2</p>
+<p><i class="rt-icon-user4"></i>.rt-icon-user4</p>
+<p><i class="rt-icon-users3"></i>.rt-icon-users3</p>
+<p><i class="rt-icon-archive3"></i>.rt-icon-archive3</p>
+<p><i class="rt-icon-earth2"></i>.rt-icon-earth2</p>
+<p><i class="rt-icon-location2"></i>.rt-icon-location2</p>
+<p><i class="rt-icon-mobile2"></i>.rt-icon-mobile2</p>
+<p><i class="rt-icon-screen"></i>.rt-icon-screen</p>
+<p><i class="rt-icon-mail3"></i>.rt-icon-mail3</p>
+<p><i class="rt-icon-support"></i>.rt-icon-support</p>
+<p><i class="rt-icon-videos"></i>.rt-icon-videos</p>
+<p><i class="rt-icon-star3"></i>.rt-icon-star3</p>
+<p><i class="rt-icon-heart5"></i>.rt-icon-heart5</p>
+<p><i class="rt-icon-bookmark2"></i>.rt-icon-bookmark2</p>
+<p><i class="rt-icon-file"></i>.rt-icon-file</p>
+<p><i class="rt-icon-locked2"></i>.rt-icon-locked2</p>
+<p><i class="rt-icon-unlocked"></i>.rt-icon-unlocked</p>
+<p><i class="rt-icon-archive4"></i>.rt-icon-archive4</p>
+<p><i class="rt-icon-images"></i>.rt-icon-images</p>
+<p><i class="rt-icon-images2"></i>.rt-icon-images2</p>
+<p><i class="rt-icon-pencil3"></i>.rt-icon-pencil3</p>
+<p><i class="rt-icon-pictures"></i>.rt-icon-pictures</p>
+<p><i class="rt-icon-link2"></i>.rt-icon-link2</p>
+<p><i class="rt-icon-search4"></i>.rt-icon-search4</p>
+<p><i class="rt-icon-cog3"></i>.rt-icon-cog3</p>
+<p><i class="rt-icon-trashcan2"></i>.rt-icon-trashcan2</p>
+<p><i class="rt-icon-pencil4"></i>.rt-icon-pencil4</p>
+<p><i class="rt-icon-article"></i>.rt-icon-article</p>
+<p><i class="rt-icon-clock4"></i>.rt-icon-clock4</p>
+<p><i class="rt-icon-heart6"></i>.rt-icon-heart6</p>
+<p><i class="rt-icon-palette"></i>.rt-icon-palette</p>
+<p><i class="rt-icon-leaf2"></i>.rt-icon-leaf2</p>
+<p><i class="rt-icon-megaphone2"></i>.rt-icon-megaphone2</p>
+<p><i class="rt-icon-bell2"></i>.rt-icon-bell2</p>
+<p><i class="rt-icon-lifebuoy"></i>.rt-icon-lifebuoy</p>
+<p><i class="rt-icon-magnet"></i>.rt-icon-magnet</p>
+<p><i class="rt-icon-light-bulb2"></i>.rt-icon-light-bulb2</p>
+<p><i class="rt-icon-flickr"></i>.rt-icon-flickr</p>
+<p><i class="rt-icon-flickr2"></i>.rt-icon-flickr2</p>
+<p><i class="rt-icon-vimeo"></i>.rt-icon-vimeo</p>
+<p><i class="rt-icon-vimeo2"></i>.rt-icon-vimeo2</p>
+<p><i class="rt-icon-twitter"></i>.rt-icon-twitter</p>
+<p><i class="rt-icon-twitter2"></i>.rt-icon-twitter2</p>
+<p><i class="rt-icon-facebook"></i>.rt-icon-facebook</p>
+<p><i class="rt-icon-facebook2"></i>.rt-icon-facebook2</p>
+<p><i class="rt-icon-facebook3"></i>.rt-icon-facebook3</p>
+<p><i class="rt-icon-googleplus"></i>.rt-icon-googleplus</p>
+<p><i class="rt-icon-googleplus2"></i>.rt-icon-googleplus2</p>
+<p><i class="rt-icon-pinterest"></i>.rt-icon-pinterest</p>
+<p><i class="rt-icon-pinterest2"></i>.rt-icon-pinterest2</p>
+<p><i class="rt-icon-tumblr"></i>.rt-icon-tumblr</p>
+<p><i class="rt-icon-tumblr2"></i>.rt-icon-tumblr2</p>
+<p><i class="rt-icon-linkedin"></i>.rt-icon-linkedin</p>
+<p><i class="rt-icon-linkedin2"></i>.rt-icon-linkedin2</p>
+<p><i class="rt-icon-dribbble"></i>.rt-icon-dribbble</p>
+<p><i class="rt-icon-dribbble2"></i>.rt-icon-dribbble2</p>
+<p><i class="rt-icon-stumbleupon"></i>.rt-icon-stumbleupon</p>
+<p><i class="rt-icon-stumbleupon2"></i>.rt-icon-stumbleupon2</p>
+<p><i class="rt-icon-lastfm"></i>.rt-icon-lastfm</p>
+<p><i class="rt-icon-lastfm2"></i>.rt-icon-lastfm2</p>
+<p><i class="rt-icon-skype"></i>.rt-icon-skype</p>
+<p><i class="rt-icon-skype2"></i>.rt-icon-skype2</p>
+<p><i class="rt-icon-behance"></i>.rt-icon-behance</p>
+<p><i class="rt-icon-vk"></i>.rt-icon-vk</p>
+<p><i class="rt-icon-smashing"></i>.rt-icon-smashing</p>
+<p><i class="rt-icon-dropbox"></i>.rt-icon-dropbox</p>
+<p><i class="rt-icon-evernote"></i>.rt-icon-evernote</p>
+<p><i class="rt-icon-picasa"></i>.rt-icon-picasa</p>
+<p><i class="rt-icon-instagram2"></i>.rt-icon-instagram2</p>
+</div>
+
+
+    <hr>
+      <h2>Social Icons</h2>
+
+      <div class="span-8">
+      <p><a href="#" class="socialico-soundcloud-rounded">#</a>.socialico-soundcloud-rounded</p>
+      <p><a href="#" class="socialico-pinterest-rounded">#</a>.socialico-pinterest-rounded</p>
+      <p><a href="#" class="socialico-windows-rounded">#</a>.socialico-windows-rounded</p>
+      <p><a href="#" class="socialico-addthis-rounded">#</a>.socialico-addthis-rounded</p>
+      <p><a href="#" class="socialico-sharethis-rounded">#</a>.socialico-sharethis-rounded</p>
+      <p><a href="#" class="socialico-picasa-rounded">#</a>.socialico-picasa-rounded</p>
+      <p><a href="#" class="socialico-lastfm-rounded">#</a>.socialico-lastfm-rounded</p>
+      <p><a href="#" class="socialico-technorati-rounded">#</a>.socialico-technorati-rounded</p>
+      <p><a href="#" class="socialico-mac-rounded">#</a>.socialico-mac-rounded</p>
+      <p><a href="#" class="socialico-dribble-rounded">#</a>.socialico-dribble-rounded</p>
+      <p><a href="#" class="socialico-behance-rounded">#</a>.socialico-behance-rounded</p>
+      <p><a href="#" class="socialico-facebook-rounded">#</a>.socialico-facebook-rounded</p>
+      <p><a href="#" class="socialico-google-rounded">#</a>.socialico-google-rounded</p>
+      <p><a href="#" class="socialico-skype-rounded">#</a>.socialico-skype-rounded</p>
+      <p><a href="#" class="socialico-linkedin-rounded">#</a>.socialico-linkedin-rounded</p>
+      <p><a href="#" class="socialico-deviantart-rounded">#</a>.socialico-deviantart-rounded</p>
+      <p><a href="#" class="socialico-bing-rounded">#</a>.socialico-bing-rounded</p>
+      <p><a href="#" class="socialico-twitter-rounded">#</a>.socialico-twitter-rounded</p>
+      <p><a href="#" class="socialico-myspace-rounded">#</a>.socialico-myspace-rounded</p>
+      <p><a href="#" class="socialico-flickr-rounded">#</a>.socialico-flickr-rounded</p>
+      <p><a href="#" class="socialico-tumblr-rounded">#</a>.socialico-tumblr-rounded</p>
+      <p><a href="#" class="socialico-paypal-rounded">#</a>.socialico-paypal-rounded</p>
+      <p><a href="#" class="socialico-rss-rounded">#</a>.socialico-rss-rounded</p>
+      <p><a href="#" class="socialico-stumbleupon-rounded">#</a>.socialico-stumbleupon-rounded</p>
+      <p><a href="#" class="socialico-blogger-rounded">#</a>.socialico-blogger-rounded</p>
+</div>
+<div class="span-8">
+      <p><a href="#" class="socialico-vimeo-rounded">#</a>.socialico-vimeo-rounded</p>
+      <p><a href="#" class="socialico-wordpress-rounded">#</a>.socialico-wordpress-rounded</p>
+      <p><a href="#" class="socialico-youtube-rounded">#</a>.socialico-youtube-rounded</p>
+      <p><a href="#" class="socialico-yahoo-rounded">#</a>.socialico-yahoo-rounded</p>
+      <p><a href="#" class="socialico-aim-rounded">#</a>.socialico-aim-rounded</p>
+      <p><a href="#" class="socialico-dribble">#</a>.socialico-dribble</p>
+      <p><a href="#" class="socialico-behance">#</a>.socialico-behance</p>
+      <p><a href="#" class="socialico-facebook">#</a>.socialico-facebook</p>
+      <p><a href="#" class="socialico-google">#</a>.socialico-google</p>
+      <p><a href="#" class="socialico-skype">#</a>.socialico-skype</p>
+      <p><a href="#" class="socialico-linkedin">#</a>.socialico-linkedin</p>
+      <p><a href="#" class="socialico-deviantart">#</a>.socialico-deviantart</p>
+      <p><a href="#" class="socialico-bing">#</a>.socialico-bing</p>
+      <p><a href="#" class="socialico-twitter">#</a>.socialico-twitter</p>
+      <p><a href="#" class="socialico-myspace">#</a>.socialico-myspace</p>
+      <p><a href="#" class="socialico-flickr">#</a>.socialico-flickr</p>
+      <p><a href="#" class="socialico-tumblr">#</a>.socialico-tumblr</p>
+      <p><a href="#" class="socialico-paypal">#</a>.socialico-paypal</p>
+      <p><a href="#" class="socialico-rss">#</a>.socialico-rss</p>
+      <p><a href="#" class="socialico-stumbleupon">#</a>.socialico-stumbleupon</p>
+      <p><a href="#" class="socialico-blogger">#</a>.socialico-blogger</p>
+      <p><a href="#" class="socialico-vimeo">#</a>.socialico-vimeo</p>
+      <p><a href="#" class="socialico-wordpress">#</a>.socialico-wordpress</p>
+      <p><a href="#" class="socialico-youtube">#</a>.socialico-youtube</p>
+      <p><a href="#" class="socialico-yahoo">#</a>.socialico-yahoo</p>
+      <p><a href="#" class="socialico-aim">#</a>.socialico-aim</p>
+</div>
+		<hr>
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+    
+    <p>This theme imports three Javascript files.</p>
+    
+    <ol>
+      <li><strong>modernizr-2.6.2.min.js</strong> detecting a browsers features.</li>
+      <li><strong>jquery-1.10.2.min.js</strong> is a popular JavaScript library.</li>
+      <li><strong>bootstrap.min.js</strong> is a stantard Twitter Bootstrap library.</li>
+      <li><strong>respond.min.js</strong> is required for Twitter Bootstrap v3 works in older browsers.</li>
+      <li><strong>superfish.js</strong> is a script that enables a dropdown menu.</li>
+      <li><strong>hoverIntent.js</strong> is a component for superfish menu.</li>
+      <li><strong>jquery.actual.min.js</strong> is a plugin that can calculate dimensions for hidden HTML elements.</li>
+      <li><strong>jquery.elastislide.js</strong> is a jQuery plugin that we use for horizontal slider.</li>
+      <li><strong>jquery.flexslider-min.js</strong> is a jQuery plugin for main and bottom sliders.</li>
+      <li><strong>jquery.isotope.min.js</strong> is a jQuery plugin for filtrable gallery.</li>
+      <li><strong>jquery.prettyPhoto.js</strong> is a jQuery plugin for displaying lightbox content.</li>
+      <li><strong>jquery.ui.totop.js</strong> is a jQuery plugin for toTop button.</li>
+      <li><strong>jquery.easing.1.3.js</strong> is a jQuery plugin for different types of animation</li>
+      <li><strong>placeholders.min.js</strong> enables a placeholder functionality for input tags in older browsers.</li>
+      <li><strong>jquery.scrollTo-min.js</strong> and <strong>jquery.localscroll-min.js</strong> needs for smooth single page navigation.</li>
+
+      <li><strong>jquery.easypiechart.min.js</strong> is a jQuery plugin that uses the canvas element to render simple pie charts for single values.</li>
+      <li><strong>jquery.sticky.js</strong> Sticky is a jQuery plugin that gives you the ability to make any element on your page always stay visible.</li>
+      <li><strong>jquery.jflickrfeed.min.js</strong> plugin makes it easy to pull Flickr feeds and display them on your site.</li>
+      <li><strong>jquery.tweet.min.js</strong> plugin enables a twitter widget on your site.</li>
+      <li><strong>owl.carousel.min.js</strong> is a jQuery carousel plugin for "partners" section</li>
+      <li><strong>jquery.nicescroll.min.js</strong> is a plugin for replase a browser standard scroll bar</li>
+      <li><strong>jquery.fractionslider.min.js</strong> is a great slider plugin for main slider</li>
+      <li><strong>jquery.parallax-1.1.3.js</strong> is used for parallax backgrounds.</li>
+
+
+      <li><strong>main.js</strong> inits all basic behavior for this template.</li>
+      <li><strong>plugins.js</strong> contains some of our custom scripts.</li>
+    </ol>
+  
+    <hr>
+
+    <h3 id="widgetsSetup"><strong>D) Setup Flickr, Twitter, Subscribe and Contact forms Setup</strong> - <a href="#toc">top</a></h3>
+		
+    <h5>To setup a Google Map do follofing:</h5>
+    <ul>
+      <li>Scroll to the bottom of HTML page with Google Map (index page and contacts page) and find code " //type your address after "address=" "</li>
+      <li>Provide your address as a regular string.</li>
+      <li>To change a marker text and title find code "//type your map title and description here" and type your values.</li>
+    </ul>
+
+    <h5>To setup a Flickr Widget do follofing:</h5>
+    <ul>
+      <li>Go to <a href"http://idgettr.com/">http://idgettr.com/</a> and search for your Flickr ID</li>
+      <li>Edit line 154 of your "main.js" file. Just replase "54297118@N03" ID with your Flickr ID</li>
+    </ul>
+    
+
+    <h5>To setup a Twitter Widget do follofing:</h5>
+    <ul>
+      <li>Go to <a href"https://dev.twitter.com/apps">https://dev.twitter.com/apps</a> and register a new application to recieve Consumer Key, Consumer Secret Word, User Token and User Secred Word</li>
+      <li>Edit lines from 27 to 36 of your "twitter/index.php" file. Place your secret keys and words to appropriate placeholders for them.</li>
+      <li>Edit lines 86 (number of tweets) and 91 (username) of your "main.js" file.</li>
+    </ul>
+ 
+    <h5>To setup a Contact Form do follofing:</h5>
+    <ul>
+      <li>Edit lines from 7 to 22 of your "contact-form.php" file. Place your email and messages text.</li>
+    </ul>
+    
+    
+    <h5>To setup a MailChimp Subscribe form do follofing:</h5>
+ 
+    <p>Edit the "mailchimp/store-address.php" file:</p>
+    <p>Line 19: replace "your_apikey" with an API Key retrieved from here:</p>
+    <p><a href="http://admin.mailchimp.com/account/api/">http://admin.mailchimp.com/account/api/</a></p>
+    
+    <p>Line 23: replace "my_list_unique_id" with the List Unique Id obtained by going to: <a href="http://admin.mailchimp.com/lists/">http://admin.mailchimp.com/lists/</a>.</p>
+    <p>Click the "settings" link for the list - the Unique Id is at the bottom of that page. </p>
+      
+
+	
+		<hr>
+		
+		<h3 id="psdFiles"><strong>E) PSD Files</strong> - <a href="#toc">top</a></h3>
+		
+		<p>There are eight layered PSD files:</p>
+		
+			<ul>
+				<li>1.1. Main.psd</li>
+				<li>1.2. Mobile.psd</li>
+				<li>2. About.psd</li>
+				<li>3. Portfolio.psd</li>
+        <li>4.1. Blog.psd</li>
+        <li>4.2. Blog Post.psd</li>
+        <li>5. Contacts.psd</li>
+        <li>6.1. 404.psd</li>
+        <li>6.2. Shortcodes.psd</li>
+        <li>4.2. Blog Post.psd</li>
+				<li>5.1. 404.psd</li>
+			</ul>
+		
+		<hr>
+		
+		<h3 id="credits"><strong>F) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+
+		<p>As we mentioned earlier, we used a <a href="http://getbootstrap.com">Twitter Bootstrap v3</a> as a CSS framework and <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a> for this template.</p>
+		
+		<p>We use the following JS files in our template:</p>
+		
+		<ul>
+			<li><a href="http://modernizr.com/">modernizr-2.6.2.min.js</a></li>
+			<li><a href="http://jquery.com/">jquery-1.10.2.min.js</a></li>
+			<li><a href="http://getbootstrap.com">bootstrap.min.js</a></li>
+			<li><a href="https://github.com/scottjehl/Respond">respond.min.js</a></li>
+			<li><a href="http://users.tpg.com.au/j_birch/plugins/superfish/">superfish.js</a></li>
+			<li><a href="https://github.com/briancherne/jquery-hoverIntent">hoverIntent.js</a></li>
+			<li><a href="https://github.com/dreamerslab/jquery.actual">jquery.actual.min.js</a></li>
+			<li><a href="http://tympanus.net/codrops/2011/09/12/elastislide-responsive-carousel/">jquery.elastislide.js</a></li>
+			<li><a href="http://www.woothemes.com/flexslider/">jquery.flexslider-min.js</a></li>
+			<li><a href="http://isotope.metafizzy.co/">jquery.isotope.min.js</a></li>
+			<li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">jquery.prettyPhoto.js</a></li>
+			<li><a href="http://www.mattvarone.com/web-design/uitotop-jquery-plugin/">jquery.ui.totop.js</a></li>
+			<li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">jquery.easing.1.3.js</a></li>
+			<li><a href="http://jamesallardice.github.io/Placeholders.js/">placeholders.min.js</a></li>
+			<li><a href="http://flesler.blogspot.com/">jquery.scrollTo-min.js and jquery.localscroll-min.js</a></li>
+
+      <li><a href="http://rendro.github.io/easy-pie-chart/">jquery.easypiechart.min.js</a></li>
+      <li><a href="http://stickyjs.com/">jquery.sticky.js</a></li>
+      <li><a href="http://files.gethifi.com/posts/jflickrfeed/example.html">jquery.jflickrfeed.min.js</a></li>
+      <li><a href="https://github.com/StanScates/Tweet.js-Mod">jquery.tweet.min.js</a></li>
+      <li><a href="http://www.owlgraphic.com/owlcarousel">owl.carousel.min.js</a></li>
+      <li><a href="http://areaaperta.com/nicescroll">jquery.nicescroll.min.js</a></li>
+      <li><a href="http://fractionslider.jacksbox.de">jquery.fractionslider.min.js</a></li>
+      <li><a href="http://www.ianlunn.co.uk/plugins/jquery-parallax/">jquery.parallax-1.1.3.js</a></li>
+
+		</ul>
+
+		<p>We use the following fonts.</p>
+
+		<ul>
+			<li><strong>DX-icons</strong> font which based on <a href="http://icomoon.io/">http://icomoon.io/</a></li>
+			<li><strong><a href="http://fontfabric.com/social-media-icons-pack/">Social Icons font</a></strong></li>
+		</ul>
+
+		<hr>
+		
+		<p>Thank for purchasing this template.</p> 
+		
+		<p class="append-bottom alt large"><strong>DXTemplates</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
