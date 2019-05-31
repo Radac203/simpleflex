@@ -1287,6 +1287,7 @@ top:100px;
 .horizontal_slider_item:hover .p-view, .portfolio_item_image:hover .p-view {opacity: 1;}
 
 /*gallery*/
+#portfolioContainer article {margin-top: 15px;}
 ul#portfolioContainer {padding: 0; margin: 0; list-style: none; text-align: center; }
 #portfolio h4 {margin-top: 0;}
 #portfolio .isotope-item {max-width: 100%; overflow: hidden; float: left; width: 25%; margin-left: -1px;/* margin-bottom: 30px; */ list-style: none;}
@@ -1418,7 +1419,7 @@ color:#ff6f6f;
 .blog-single .entry-thumbnail{margin: 0px 0px 32px; position: relative;}
 .blog article + article {margin-top: 50px;}
 /*from blog widget*/
-.widget_from_blog { text-align: center;}
+.widget_from_blog { text-align: left;}
 .widget_from_blog .entry-thumbnail img{width: 100%;}
 .widget_from_blog article.post, .blog article.post {background-color: #2f2f2f; background-color: rgba(100,100,100,0.08);}
 article.post.primary_post {padding-bottom: 10px; border-bottom: 10px solid #fbcf61;}
@@ -1447,7 +1448,7 @@ article.post.secondary_post header {
     margin-left: -15px;
     margin-right: -15px;
 }
-article.post.secondary_post {margin-left: 15px; margin-right: 15px;}
+article.post.secondary_post {margin-left: 15px; margin-right: 15px; margin-bottom: 15px;}
 p.date {font-weight: 700; text-transform: uppercase; font-size: 12px; color:#fff; margin-bottom: 10px;}
 .entry-share {margin:20px 0 10px;}
 .blog article.post > header > h2, .blog article.post > header > .entry-meta, .blog article.post > .entry-content {margin-left: 40px; margin-right: 40px;}
@@ -1460,7 +1461,7 @@ h2.entry-title a:hover {color:#ff6f6f;}
 .entry-meta a {color:#fff;}
 .entry-meta a:hover{color:#ff6f6f;}
 .blog .entry-tags {margin-top: 29px; position: relative; background-color: #fff; color:#343434; padding: 23px 40px 19px; border-bottom: 10px solid #fbcf61;}
-
+.video_description p {font-size: 12px; line-height: 20px; margin-bottom: 0px; margin-top: 25px;}
 .format-small-image .entry-tags  {border-color: #ff6f6f;}
 .format-gallery .entry-tags  {border-color: #a7d163;}
 .entry-tags a {text-transform: uppercase; font-weight: 700; font-size: 12px;}
@@ -1484,6 +1485,7 @@ top: 50%;
 left: 50%;
 border-radius: 100%;
 background-color: #fff;
+text-align: center;
 }
 .video-view:before {
 font-family: 'fontello';
