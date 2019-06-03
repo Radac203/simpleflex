@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Gallery Single Item</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/animations.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+<section id="header" class="bg-color0"> 
+    <div class="container">
+        <div class="row">
+            <a class="navbar-brand" href="#top"><img src=img/logospacing.png></a>
+            <div class="col-sm-12 mainmenu_wrap"><div class="main-menu-icon visible-xs"><span></span><span></span><span></span></div>
+                <ul id="mainmenu" class="nav menu sf-menu responsive-menu superfish">
+                  <li class="">
+                    <a href="">About</a>
+                  </li>
+                  <li class="">
+                    <a href="">Exercises</a>
+                  </li>
+                    <li class="dropdown">
+                    <a>Tutorials</a>
+                    <ul class="nav dropdown-menu">
+                      <li class="">
+                        <a href="./gallery-single.html">Audacity</a>
+                      </li>
+                      <li class="">
+                        <a href="">Audition</a>
+                      </li>
+                      <li class="">
+                        <a href="">Reaper</a>
+                      </li>
+                    </ul>
+                  </li>
+                    <li class="dropdown">
+                    <a href="./about.html">Resources</a>
+                    <ul class="nav dropdown-menu">
+                      <li class="">
+                        <a href="">Slide Decks</a>
+                      </li>
+                      <li class="">
+                        <a href="">Listening</a>
+                      </li>
+                      <li class="">
+                        <a href="">Reading</a>
+                      </li>
+                      <li class="">
+                        <a href="">Other</a>
+                      </li>
+                    </ul>
+                  </li>
+                    <li class="">
+                    <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section> <!--Top Nav Bar-->
+
+<!--
+<section id="abovecontent" class="grey_section">
+  <div class="container"><div class="row">
+      <div class="block col-sm-12">
+        <ul class="breadcrumb">
+          <li><a href="#" class="pathway">Home</a></li>
+          <li><span>Gallery Item</span></li>
+        </ul>
+      </div>
+  </div></div>
+</section>
+-->
+<!--Middle content -->
+
+
+ 
+
+
+        <!--videos-->
+<section id="belowcontent" class="dark_section">
+    <div class="container">
+     <div class="row">
+          <div class="col-sm-12 text-center">
+              <h2 class="block-header">Audacity Tutorials</h2>
+              <p>Learn the basics and effects using Audacity</p>
+          </div>
+      </div>
+        <div id="portfolio_wrapper">
+        <div class="text-center filters"> <!--video filter menu-->
+          <ul id="filtrable">
+            <li><a class="selected" data-filter="*" href="#">All</a></li>
+            <li><a data-filter=".basicsfilter" href="#" class="">The Basics</a></li>
+            <li><a data-filter=".effectsfilter" href="#" class="">Effects</a></li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+        </div> 
+          <div class="row widget_from_blog filterable isotope clearfix" id="portfolioContainer" > <!-- all videos div -->
+            <div class="col-sm-4 filterable item isotope-item basicsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 1</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item effectsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 2</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item basicsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 1</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item effectsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 2</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item basicsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 1</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item effectsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 2</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item basicsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 1</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item effectsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 2</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end-->
+            <div class="col-sm-4 filterable item isotope-item basicsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 1</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item effectsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 2</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item basicsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 1</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item effectsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 2</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item basicsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 1</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item effectsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 2</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item basicsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 1</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end--> 
+            <div class="col-sm-4 filterable item isotope-item effectsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
+              <div class="row">
+                <article class="post format-video secondary_post clearfix">
+                  <div class="col-sm-6">
+                    <header class="entry-header">
+                      <div class="entry-thumbnail">
+                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
+                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="http://www.youtube.com/watch?v=Vpg9yizPP_g"></a>
+
+                      </div>
+                     </header>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="entry-content">
+                      <h4 class="entry-title">
+                        <a href="./blog-single.html" rel="bookmark">Chapter 2</a>
+                      </h4>
+                        <div class="video_description"><p>At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim adinim veniam.At vero eos et accusam et justo duo dolores et ea rebum.</p></div>
+                      
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  </article>
+                </div>
+            </div> <!--video widget end-->
+              
+            
+             
+            
+     
+        </div>
+    </div>
+</section>
+
+
+<!--footer -->
+<footer id="footer" class="bg-color0">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 block widget_text">
+        <h3>Text Widget</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, dolorem, eaque fugit odit obcaecati temporibus est dolor consequatur totam nam facilis soluta maiores eius iste veritatis. Ratione quidem exercitationem quisquam.</p>
+      </div>
+
+
+    <div class="block col-sm-3">
+      <div class="block widget_news">
+        <h3>Popular Posts</h3>
+        <ul>
+            <li class="item">
+              <span class="news_introimg">
+                <a href="#">
+                  <img alt="" src="example/recent_post1.jpg">
+                </a>
+              </span>
+              <div class="news_right">
+                <h5> 
+                  <a href="#">At vero eos et accusam et justo duo dolores.</a>
+                </h5>
+                <span class="news-date">Dec 24, 2013</span>
+              </div>
+            </li>
+
+            <li class="item">
+              <span class="news_introimg">
+                <a href="#">
+                  <img alt="" src="example/recent_post2.jpg">
+                </a>
+              </span>
+              <div class="news_right">
+                <h5> 
+                  <a href="#">Sanctus sea sed takimata ut voluptua.</a>
+                </h5>
+                <span class="news-date">Dec 14, 2013</span>
+              </div>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+
+    <div class="block col-sm-3 subscribe">
+      <h3>Newsletter Subscribe</h3>
+      <p>Please, subscribe to our latest news to be updated.</p>
+      <form id="signup" action="/" method="get" class="form-inline">
+        <div class="form-group">
+          <input name="email" id="mailchimp_email" type="email" class="form-control" placeholder="your@email.com">
+        </div>
+        <button type="submit" class="theme_btn">Send</button>
+        <div id="response"></div>
+      </form>
+    </div>
+
+
+    <div class="block col-sm-3">
+      <h3>Flickr Widget</h3>
+      <ul id="flickr"></ul>
+    </div>
+
+
+    </div>
+  </div>
+</footer>  
+
+<section id="copyright" class="dark_section">
+  <div class="container"><div class="row">
+    
+    <div class="col-sm-12"><p class="text-center">&copy; Copyright 2014. Simpleflex Template by <a href="http://modernwebtemplates.com" target="_blank">MW Templates</a></p></div>
+
+  </div></div>
+</section>
+
+<div class="preloader">
+  <div class="preloaderimg"></div>
+</div>
+
+  
+        <script src="js/vendor/respond.min.js"></script>
+        <script src="js/vendor/placeholders.min.js"></script>
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/hoverIntent.js"></script>
+        <script src="js/vendor/superfish.js"></script>
+        <script src="js/vendor/jquery.actual.min.js"></script>
+        <script src="js/vendor/jquery.elastislide.js"></script>
+        <script src="js/vendor/jquery.flexslider-min.js"></script>
+        <script src="js/vendor/jquery.prettyPhoto.js"></script>
+        <script src="js/vendor/jquery.easing.1.3.js"></script>
+        <script src="js/vendor/jquery.ui.totop.js"></script>
+        <script src="js/vendor/jquery.isotope.min.js"></script>
+        <script src="js/vendor/jquery.easypiechart.min.js"></script>
+        <script src='js/vendor/jflickrfeed.min.js'></script>
+        <script src="js/vendor/jquery.sticky.js"></script>
+        <script src='js/vendor/jquery.scrollTo-min.js'></script>
+        <script src='js/vendor/jquery.localscroll-min.js'></script>
+        <script src='twitter/jquery.tweet.min.js'></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
