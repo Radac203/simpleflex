@@ -1,6 +1,59 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 /*override bootstrap*/
+/*Charlotte Override bootstrap start */
+#accordian_setup .heading1 {background-color: #fbcf61; font-weight: 200; color: #3a3a3a; border-radius: 2px;}
+#accordian_setup .heading1:hover {background-color: #ff6f6f; cursor: pointer;}
+#accordian_setup .heading1 a {color: #3a3a3a; font-weight: 700;}
+.collapse-1-1-1 {margin-left: 32px;}
+.panel-group .collapse-1-1-1 .panel-body {background-color: #565656; color: white;}
+#chaptpan {margin-bottom: 5px;}
+#accordian_setup .collapse-1-1-1-1 {/*text-decoration: underline;*/}
+
+
+
+/* glyphicons */ /* taken from : https://codepen.io/tofanelli/pen/waadRY*/
+.panel-heading .caretgrey:before {
+    /* symbol for "opening" panels */
+    font-family: 'FontAwesome';  /* essential for enabling glyphicon */
+    content: "\f0d7";    /* adjust as needed, taken from bootstrap.css */
+            /* adjust as needed */
+    color: #242424;
+    font-weight: 200;
+}
+.panel-heading .caretygrey.collapsed:before {
+    /* symbol for "collapsed" panels */
+    content: "\f0da";    /* adjust as needed, taken from bootstrap.css */
+}
+.caretwhite:before {
+    /* symbol for "opening" panels */
+    font-family: 'FontAwesome';  /* essential for enabling glyphicon */
+    content: "\f0d7";    /* adjust as needed, taken from bootstrap.css */
+            /* adjust as needed */
+    color: white;
+    font-weight: 200;
+    padding-right: 8px;
+}
+.caretwhite.collapsed:before {
+    /* symbol for "collapsed" panels */
+    content: "\f0da";    /* adjust as needed, taken from bootstrap.css */
+
+}
+
+/* exersize sidenav */
+#exercise_menu .panel-default div + div { border-top: 1px solid #444444; padding-top: 6px; margin-top: 6px;} /*lines between exercises */
+#exercise_menu .panel-title > a {font-weight: 700; font-size: 14px;}
+#exercise_menu .panel-body > a {font-size: 14px; margin-left: 40px;}
+
+/*exersize setup */
+.chapter-header .entry-title {color: #fbcf61; font-size: 32px; font-weight: 700; border-bottom: 1px solid; padding-bottom: 12px; margin-bottom: 20px;}
+#exercise_div {background-color: white; border-radius: 25px; padding: 70px; min-height: 500px;}
+#exercise_div > h4 {color:black; font-size: 36px; font-weight: 100; margin-top: 0px; margin-bottom: 16px;}
+
+
+
+
+/*Charlotte Override bootstrap End */
 .clearfix {clear: both;}
 .navbar-brand {float: none; padding: 0;}
 .nav > li > a:hover, .nav > li > a:focus, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {background-color: transparent;}
@@ -39,7 +92,7 @@ transition: background-color 0.2s linear 0s;
 .panel-group .panel-heading + .panel-collapse .panel-body {
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 16px;
+    padding-left: 5px; /*C-EDIT */
     border-right: none;
     border-left: none;
     border-bottom: none;
@@ -138,6 +191,7 @@ blockquote h3 {margin-top: 0; font-style: normal;}
 #belowcontent {padding: 89px 0 60px;}
 #info > div {padding-top: 82px; padding-bottom: 88px;}
 #middle > div {padding-top: 89px; padding-bottom: 89px;}
+#middleB > div {padding-top: 39px; padding-bottom: 89px;}
 #middle .row + .row {margin-top: 40px;}
 #footer > div{padding-top: 96px; padding-bottom: 94px; }
 #map {height: 400px;}
