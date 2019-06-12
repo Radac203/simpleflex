@@ -44,11 +44,13 @@
 #exercise_menu .panel-default div + div { border-top: 1px solid #444444; padding-top: 6px; margin-top: 6px;} /*lines between exercises */
 #exercise_menu .panel-title > a {font-weight: 700; font-size: 14px;}
 #exercise_menu .panel-body > a {font-size: 14px; margin-left: 40px;}
+.panel-body a {cursor:pointer;}
 
 /*exersize setup */
 .chapter-header .entry-title {color: #fbcf61; font-size: 32px; font-weight: 700; border-bottom: 1px solid; padding-bottom: 12px; margin-bottom: 20px;}
 #exercise_div {background-color: white; border-radius: 25px; padding: 70px; min-height: 500px;}
 #exercise_div > h4 {color:black; font-size: 36px; font-weight: 100; margin-top: 0px; margin-bottom: 16px;}
+
 
 
 
