@@ -1,0 +1,118 @@
+{
+    "E2.1" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.1 Transverse wave model",
+        "writtenContent" : [
+            "This model is a transverse representation of a sound wave. You can build a sound wave model with some gummy bears, some wooden kebab skewers and duct tape.   A 3 m wave requires about 60 skewers and 120 gummy bears.", "First, set up two stands, one at each end of the wave you’re going to make. I used microphone stands and clamped them to the table with c-clamps, but you could also get someone to hold them for you. The tape between the stands needs to be in tension.", "Run a strip of tape (e.g. duct tape) with the sticky-side up between the two stands.", "Place skewers evenly, about four fingers-width apart, down the length of the tape", "(optional) Run another strip of tape on top of the existing tape, sticky side down, to seal the skewers inside the strips of tape.", "Stick gummy bears on the ends of skewers. You can use one per skewer-side to start: adding more will alter the speed of the wave.","Stand to one end of the model, and lift a gummy bear at one end, then let it go. Notice how the energy comes back when the wave hits an end: this demonstrates how sound waves reflect. More pressure adds amplitude to the waveform.","If we stand and look at the wave as a cross section, we will see an approximation of the visual of a sound wave that we see in software."
+        ]
+    },
+    "E2.2" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.2: The Sound of One Hand Clapping",
+        "writtenContent" : "Zen koans are philosophical questions meant to make us think deeply. “What is the sound of one hand clapping?” is a classic one, as is, “if a tree falls in the forest and there is nobody around to hear, does it make a sound?” These are not meant to have any right answer, but are meant to have you think about the problem of answering them. Modern philosophers have also tackled the question of what sound is (e.g. Nudds and O’Callaghan 2009). Is it a property of an object, like a color or texture? Is it an object in itself, or is it an event? Since sound is just molecules moving until it touches our ear, which converts it to sound, can sound even be sound until we’ve heard it?  Sit and ponder one of these koans and write your answer as a sound designer."
+    },
+    "E2.3" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.3 Getting to know Frequencies",
+        "writtenContent" : "You can practice learning approximate frequencies by using an app to help train your ears, or joining an ear training website, which will help you to focus on and learn to approximate frequencies. QuizTones, for instance, will test you on different tones so you can practice identifying them. Spend some time listening to different frequencies and start trying to guess which frequencies you hear in your daily listening exercise."
+    },
+    "E2.4" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.4 'The Prime Unity",
+        "writtenContent" : "Spend a few moments relaxing in a quiet place. If you know how to meditate, you can try meditating for a few minutes. Hum a tone that appears to arise from the center of your being, what R. Murray Schafer calls the “prime unity”.  According to Schafer, in North America we often hum a B natural, but people in Europe tend to hum a G sharp. These are the notes roughly aligning to our electrical currents in our walls (60 Hz and 50 Hz), the sounds we hear all day long without listening. You may have hummed at another octave—music notes appear to repeat at other frequencies that double the original, so you might have hummed at 120 or 240 Hz, and those would all be about a B natural. The Earth resonates at 7.83 Hz:  Was your hum a ratio of the Earth tone or the electricity around you?"
+    },
+    "E2.5" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.5 Frequencies in our world",
+        "writtenContent" : "Download a spectral analysis tool (or spectrogram) for your phone and head out for your daily listening exercise. Point your phone’s microphone at some sounds and see what frequencies you are hearing. You’ll notice that it’s rare to get a single tone that makes it obvious what frequency you are hearing. This is because most sounds are made up of multiple frequencies. The example below is the iPad app Oxford Wave Research’s SpectrumView, which allows you to view either the spectrogram or the spectral analyzer. Looking at Spectrograms can be a bit like looking at the code in The Matrix until you get used to it and learn to read them. Practice will make perfect! You will soon be able to guess the approximate range of fundamental frequency and their harmonics.",
+        "links": "https://www.sonicvisualiser.org/"
+    },
+    "E2.6" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.6 Consonance and Dissonance",
+        "writtenContent" : "Try to find some examples of consonant and dissonant sounds in music you enjoy. They may be played one after the other (in intervals) or at the same time (in chords). Write down the song names and why you think the artists used those tones.",
+        "url" : "https://www.youtube.com/embed/J-qoaioG2UA",
+        "url2" : "https://www.youtube.com/embed/ZvCI-gNK_y4"
+    },
+    "E2.7" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.7 How loud are sounds? SPL Meter",
+        "writtenContent" : "Time to grab your notebook and head outside. First, download a sound pressure level (SPL) meter for your phone. I’m using Decibel Meter Pro. A similar useful app is Decibel X. Go out and do your listening exercise, but this time have your SPL meter ready and write down how loud sounds are around you. Take a walk and pay attention to the loudness of sounds. Try to find a very quiet and a very loud place. What is the quietest place you can find? What is the loudest? Walk towards a sound and see how the decibels increase. In my test below,  the Maximum over the sampling period was 68 dB and the peak was 56 dB. The difference between maximum and peak can be confusing. Maximum is the highest time-weighted sound measure. The Peak, sometimes referred to as Lpeak or Lpk, is the maximum value reached by the sound pressure without a time constant. It is the true peak of the pressure wave, and is usually C-weighted, not A-weighted.  Note that the accuracy of smartphone apps is not as great as it is for professional SPL meters, but is fine for our purposes. ",
+        "link" : "https://apps.apple.com/us/app/decibel-x-db-dba-noise-meter/id448155923"
+    },
+    "E2.8" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.8 Amplitude in Composition",
+        "writtenContent" : "Find one sound and place it at different amplitudes in a composition—a collection of sounds. What do you learn about hearing the sound at different volumes?  Download some loud sounds and put them into a sound composition and make them quiet. Then do the inverse: find some very quiet sounds and make them very loud. How does the change in volume alter their perception?"
+    },
+    "E2.9" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.9 The Sound of Silence",
+        "writtenContent" : "Not just a Simon and Garfunkle song: think for a moment about silence. Does it ever exist? How might we learn to use silence (or at least, quiet) to give space to a piece, to add anticipation? Create a sound composition using only silence and very quiet sounds like pin-drops or leaves falling. When we strain to listen, how does that change our relationship to the sound?"
+    },
+    "E2.10" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise # 2.10 Analyze some harmonics",
+        "writtenContent" : "Play various sounds into a spectral analyzer to determine the harmonics. Try for instance a tuning fork, a guitar, a xylophone, a flute, or a kalimba. What are the harmonics that you can hear by listening—and what does the spectral analyzer tell you?"
+    },
+    "E2.11" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.11 Reverse Envelopes",
+        "writtenContent" : "Reverse a few sounds (Effect > reverse) and note how the envelope of the sound changes. How would you describe the sound you hear now?"
+    },
+    "E2.12" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.12 Attack Splice",
+        "writtenContent" : "Splice the attack of one envelope onto the DSR of another. To do this, select the point in the file where the attack peaks, then use Edit > Clip Boundaries > Split  (cmd> I). Then use the move tool to move the decay away. Do the same to a second track, then cut and paste between them.  Which part of the sound wave is most important to identifying the sound?"
+    },
+    "E2.13" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.13 Using the DSR",
+        "writtenContent" : "The experimental composer Pierre Schaeffer wrote in his journal about removing the attack of a sound from a recording, using just the decay, sustain, and release as a new sound. Download 10 sounds at random from a sound library and delete the attacks by splicing them using split (cmd > i), then deleting the attack, leaving just the DSR portion of the envelope. What do you hear in these parts of the sound? Can you create a new sound from just these portions?"
+    },
+    "E2.14" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.14 Exaggerated Envelopes",
+        "writtenContent" : "Find or make sounds with different parts of the envelope exaggerated (louder, longer, or more emphasized through timbre than other parts). How does each aspect of the envelope change the sound you hear?"
+    },
+    "E2.15" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.15 Drawing Envelopes",
+        "writtenContent" : "Now that you understand envelopes, practice drawing what you imagine are the envelopes of sounds in your daily listening practice. If you can, record them (e.g. on your phone) and then check your accuracy until you feel comfortable."
+    },
+    "E2.16" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.16 Signal to noise",
+        "writtenContent" : "Open a short sound in Audacity. Then create a new track and use Generate > noise.  We can use the envelope tool to quickly adjust the level of the white noise in the background, and see at what point the signal becomes lost in the noise."
+    },
+    "E2.17" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.17 Find a Sound Like…",
+        "writtenContent" : "Find a sound in a sound library that best illustrates the following onomatopoeia: “oof”, “pop”, “bang”, “whoosh”, “swish”, “glug”."
+    },
+    "E2.18" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.18 Opposites Attract?",
+        "writtenContent" : "Find two sounds that appear to be opposites or contrast each other. You can do this with a partner, and one person finds a sound and the other finds its opposite, or on your own: Freesound has a “sound of the day” that is selected that you can use as a pretend partner."
+    },
+    "E2.19" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.19 Exquisite Corpse",
+        "writtenContent" : "Exquisite corpse is a group art/writing game in which every person adds to a composition by only seeing what the last person drew or wrote (not the entire composition). It was invented by the Surrealist art movement. Try to create an auditory exquisite corpse with your group or class: create a soundscape, where one person chooses a sound effect, and plays it to the next person, who chooses an effect that will go with the first. The second person then only plays their effect to the third person, who chooses an effect that will go with that, and so on. Have one person sequence the sounds into one long composition (you could do this remotely by having each person email the sound privately to the selected sequencer). Where did you start and where did you end, and what were the connections between the sounds?"
+    },
+    "E2.20" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.20 Segues",
+        "writtenContent" : "Take two sounds and apply different fades to place the sounds together one after the other. How does this change the way you hear those sounds?"
+    },
+    "E2.21" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.21 Loop de loop",
+        "writtenContent" : "Cut or segue a sound so that its end will match its beginning and repeat it so it loops. How does that impact your reception to that sound? "
+    },
+    "E2.22" : {
+        "chapterName" : "Chapter 2: Sound",
+        "exerciseName" : "Exercise #2.22 Compression Fidelity",
+        "writtenContent" : "Grab a sound effect that is uncompressed (a wave file) from a sound library. Adjust the sample rate in stages (Tracks > Resample). What do you notice as it approaches 8 kHz? Export the original as MP3 (File> Export as MP3: You’ll need to follow the instructions to install the LAME MP3 codec first). Change bit rate mode to constant and then select the lowest quality (the bit rate) and export. Listen at lower quality. Bring that saved file back into Audacity and listen and compare to the original. Don’t forget to look at the Spectrogram as well, and turn up the volume! "
+    }  
+}

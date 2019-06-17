@@ -1,0 +1,100 @@
+{
+    "E6.1" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.1 Dynamic range",
+        "writtenContent" : "If we think about the dynamic range of the listening exercises we’ve been doing, in which location have you found the most dynamic range? For your next listening exercise, focus on the dynamic range of the soundscape you’re listening to. What is the loudest sound, and what is the quietest sound you can hear? What is the most important sound, and what is the least important sound, and how would you adjust the dynamic range to reflect that?"
+    },
+    "E6.2" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.2 Compression",
+        "writtenContent" : "Try compression, normalization and limiting as audio effects. These effects can be used for instance to enhance sustain/reverb on files, and set the limit where it starts to distort. Take a lot of time on this one—it’s a more delicate effect than some we’ve heard so far, and takes practice to do right.",
+        "audio" : ""
+    },
+    "E6.3" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.3 Gating",
+        "writtenContent" : "Make a recording with some background ambience behind some discrete sounds. Try different gating settings and see if you can get rid of the ambience.",
+        "audio" : ""
+    },
+    "E6.4" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.4 Ducking",
+        "writtenContent" : "Try some different ducking settings. How might you use this as an effect on something other than voice?",
+        "audio" : ""
+    },
+    "E6.5" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.5 Noise Reduction",
+        "writtenContent" : "Find or record a noisy file, and try to reduce the noise. Try files with varying levels of noise (you can find some with low ratings on Freesound for a starting point). See if you can find the balance between reducing noise while not interfering with the main signal.",
+        "audio" : ""
+    },
+    "E6.6" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.6 Grouping: Figure and Ground",
+        "writtenContent" : "For your listening exercise today, group the sounds you’ve described into foreground, midground and background sounds. Then get your recorder out, and record a single sound as a foreground, mid-ground and background by increasing your distance (and potentially mic axis, microphone polar pattern, etc.). Play the recordings back: How does the shift in perspective change the way you think about the sound?",
+        "audio" : ""
+    },
+    "E6.7" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise: #6.7 Too much noise",
+        "writtenContent" : "How many sounds can you layer into a mix before it gets too much and just becomes “muddy”? How can you adjust that same number of sounds to separate them out further in the mix (hint: space, effects, and EQ). Can you use grouping of sounds to reduce that mud?",
+        "audio" : ""
+    },
+    "E6.8" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.8 Panning perception",
+        "writtenContent" : "Set two speakers at 60 degree angle to your head. Pan a sound all the way left and another all the way right. Where does the sound appear to actually come from? Most people find that sounds appear further away than the speaker. Where does the sound appear to come from in terms of the front-back location and how does that change as you change the volume? What about height and frequency?"
+    },
+    "E6.9" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.9 Phantom imaging",
+        "writtenContent" : "Take a sound and try to position it in the phantom center position using stereo. Now play with the pan on those speakers and listen for the perceptual changes. What happens when we start panning?",
+        "audio" : ""
+    },
+    "E6.10" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.10 Technical and Creative Mixes",
+        "writtenContent" : "Includes a numbered list",
+        "audio" : ""
+    },
+    "E6.11" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.11 Point of Audition Analysis",
+        "writtenContent" : "Listen to a few different sound mixes—music or film or games. Think about where it positions you as the listener. What impact does that positioning have on your subjective experience of the mix? How loud are sounds in relation to each other? What frequency bands do sounds appear in? Does the mix stay the same as the track progresses? How long is the reverb on each sound--is it one reverb on the whole file, or are different sounds treated differently? How have sounds been placed in the stereo field?"
+    },
+    "E6.12" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.12 Play with a mix",
+        "writtenContent" : "Make a soundscape and play with different aspects of the mix to change the subjective position: record at different distances, and with different mics, and explore how much you can then play with those recordings in the mix to alter the subjective position. Attempt to create near, far, and inside a character’s head with the same sounds. ",
+        "audio" : ""
+    },
+    "E6.13" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.13 Play with a mix 2",
+        "writtenContent" : "Record/find all the sounds you’d need to create a car crash scene. Mix it as if you are outside the car, then mix it again as if you are inside the car. What changes did you need to create and why?",
+        "audio" : ""
+    },
+    "E6.14" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.14 Reference Mixes",
+        "writtenContent" : "When you listen to movies, music, podcasts, radio or other media, focus on their mixing. If you like the mix, be sure to record it so you can use it as a reference for your own work later.  What were the differences in the mixes you liked, and how does that change the feel? Find a mix that you don’t like. What do you think is wrong with it, and how would you change it?"
+    },
+    "E6.15" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.15 Stacking Sounds",
+        "writtenContent" : "Mix 2 sounds together by stacking the layers to create a new sound. Leave the sounds dry (don’t use any effects). Then use 3 sounds. Then 4 sounds. At what point do you just get a muddy mess?  ",
+        "audio" : ""
+    },
+    "E6.16" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.16 Stacking Sounds 2",
+        "writtenContent" : "Repeat the previous exercise, but with effects this time—what effects can you put on multiple sounds to help to reduce the mud while retaining the sound’s uniqueness?",
+        "audio" : ""
+    },
+    "E6.17" : {
+        "chapterName" : "Chapter Six: Mixing",
+        "exerciseName" : "Exercise #6.17 Take Your Mix Out into the World",
+        "writtenContent" : "Now you’ve got some mixes, try them out in different settings: your iPod, your car, your friend’s stereo, etc. How does the sound change from place to place? How would you balance the trade-offs necessary if you knew most people were going to listen to your mix on a $10 pair of smartphone headphones over Bluetooth.",
+        "audio" : ""
+    }    
+}

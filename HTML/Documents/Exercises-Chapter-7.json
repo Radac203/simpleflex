@@ -1,0 +1,54 @@
+{
+    "E7.1" : {
+        "chapterName" : "Chapter Seven: Surround and Spatial Sound",
+        "exerciseName" : "Exercise #7.1 Where does sound localization fall apart?",
+        "writtenContent" : "An easy way to demonstrate where localization tends to weaken is to sit, blindfolded or with eyes closed. Have someone else snap their fingers in a variety of places around your head: is there a place where you can’t figure out where the sound is coming from?",
+        "audio" : ""
+    },
+    "E7.2" : {
+        "chapterName" : "Chapter Seven: Surround and Spatial Sound",
+        "exerciseName" : "Exercise #7.2 360 degrees of sound",
+        "writtenContent" : "Stand in one spot and point a directional microphone at the space. Slowly, over the course of several minutes, turn around on the spot, so you are recording 360 degrees of sound. Note your observations when you play back the file. "
+    },
+    "E7.3" : {
+        "chapterName" : "Chapter Seven: Surround and Spatial Sound",
+        "exerciseName" : "Exercise #7.3 Listen to a binaural recording",
+        "writtenContent" : "Check out some binaural mixes of music, film or games. What do you notice about the difference in localization versus stereo?"
+    },
+    "E7.4" : {
+        "chapterName" : "Chapter Seven: Surround and Spatial Sound",
+        "exerciseName" : "Exercise #7.4 Binaural recording",
+        "writtenContent" : "You know what to do! If you don’t have binaural mics, tape a mic to each side of your hat by your ears, and head out on a sound walk, recording as you go. Listen to the file when you get back. What do you notice is the difference between this recording and others you’ve taken on your sound walk? Did the binaural aspect work even without the pinnae being involved?",
+        "audio" : ""
+    },
+    "E7.5" : {
+        "chapterName" : "Chapter Seven: Surround and Spatial Sound",
+        "exerciseName" : "Exercise #7.5 Binaural panning",
+        "writtenContent" : "If you’ve got a binaural plug-in for your software, try to recreate a scene from your sound walks using binaural panning. ",
+        "audio" : ""
+    },
+    "E7.6" : {
+        "chapterName" : "Chapter Seven: Surround and Spatial Sound",
+        "exerciseName" : "Exercise #7.6 In-Head Localization",
+        "writtenContent" : "If you have access to stereo panning tools, try to intentionally place sounds in and outside the in-head localization position. How does it change the way that you perceive sound? Reflect on where you might want to employ in-head localization on purpose.",
+        "audio" : ""
+    },
+    "E7.7" : {
+        "chapterName" : "Chapter Seven: Surround and Spatial Sound",
+        "exerciseName" : "Exercise # 7.7 Test Surround Modes",
+        "writtenContent" : "If you have the equipment, grab a great DVD or Blue Ray (yes, a real physical DVD, not a stream! Ideally you can get your hands on a demo disc on eBay, designed to demonstrate the capabilities of the system) and try out different surround modes. Can you hear a difference? What are the most obvious differences you hear?",
+        "audio" : ""
+    },
+    "E7.8" : {
+        "chapterName" : "Chapter Seven: Surround and Spatial Sound",
+        "exerciseName" : "Exercise #7.8 Surround Mix in Audacity",
+        "writtenContent" : "It is possible to mix in surround in Audacity. You may need to enable the plug-in. With three or more separate tracks, select<span> File>Export>Export as Wav </span> then hit <span>Save</span>. You should get the Advanced Mixing Options window pop-up. This lets us map the tracks to output channels (Figure *). We can click on the track name followed by the channel number to alter the track’s mapping.",
+        "audio" : ""
+    },
+    "E7.9" : {
+        "chapterName" : "Chapter Seven: Surround and Spatial Sound",
+        "exerciseName" : "Exercise #7.9 Real-life Propagation",
+        "writtenContent" : "Use your home or school to set up some real-life propagation experiments. Play a broadband (many frequencies) sound from a speaker behind a door, then open the door. Duck behind some furniture. Note how the sound changes in the space. Record the sound and run a spectral analyzer. What frequencies are dropping out as the location of the source changes?",
+        "audio" : ""
+    }   
+}

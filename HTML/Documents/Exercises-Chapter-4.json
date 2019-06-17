@@ -1,0 +1,119 @@
+{ 
+    "E4.1" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.1 Doppler Effect",
+        "writtenContent" : "Go out and record the Doppler effect occurring on a road. It will work best with a car that has a siren on, but will work with just regular vehicles too.",
+        "audio" : ""    
+    },
+    "E4.2" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.2 Make a Doppler Effect",
+        "writtenContent" : "You can make a Doppler effect pretty easily: just get something that is making a constant sound, tie it to a string, and swing it around your head!  Get a piezo buzzer/speaker (~$5) and attach it to a 9 volt battery. Stuff the noisy thing into a ball on a string!",
+        "audio" : "",
+        "link" : "https://www.sparkfun.com/products/13940"
+    },
+    "E4.3" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.3 Reflections of sound",
+        "writtenContent" : "Use a tiny but powerful flashlight or laser light on a very hard surface (like the white board in your classroom or a mirror in your home)—turn the lights out and watch how the reflection bounces off the surface. Now direct a sound in the same place as the flashlight, and move a directional (e.g. shotgun) microphone around until you find the sweet spot—is it the same as the light? You can also use cardboard tubes to listen for and find the angle of reflection."   
+    },
+    "E4.4" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.4 Make a parabolic microphone",
+        "writtenContent" : ["You can buy parabolic microphone dishes that are used in field recording (a professional one will cost over $1000), but you can also make your own. It won’t be as good, but it will be good enough to demonstrate the effect. For this exercise, we’ll need some tools. First, we need a large bowl as close to a parabola shape as possible (if you can find a discarded TV satellite dish, that works great!). It needs to be a highly reflective, perfectly round dish, like a plastic salad bowl. In an ideal world the bottom of the bowl would also be round, but most salad bowls you’ll find will have a flat bottom. We know that the size of sound waves increase as we lower the frequency, so larger dishes will reflect more sound: You may see small cheap tiny parabolic microphones on a handheld gun-like device on eBay for instance, but these will only reflect high frequency sounds. The larger the dish, the more frequencies we will amplify.","Next, we need to find and mark the focal point. Drill a ¼” hole in center of the bottom of the dish and stick a dowel into it, straight out into the bowl, with the length of the dowel longer than the height of the bowl. This will be our measuring stick and will hold our microphone. If you’ve got a laser pen, you can shine it onto the bowl and it should reflect at the focal point. Check a few different angles to be sure. Mark the focal point with a pen.  If you don’t have a laser pen, you can use your ears and the microphone. Set up a directional sound and point the bowl towards the sound, and move the microphone until the amplitude is at its loudest.","Tape a small omnidirectional microphone, like a lavalier microphone to the focal point, facing the bottom of the bowl."]   
+    },
+    "E4.5" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.5 Standing Waves and Flutter echo",
+        "writtenContent" : "Visit some different indoor spaces around your campus, house, mall, etc. Clap your hands and listen for the reflection. Try to generate some frequencies between parallel walls and see if you can create a standing wave pattern. You will hear more reflection if you can go at a time when there aren’t many people around. Did you find anywhere that has a flutter echo? Did you find anywhere with a standing wave?"   
+    },
+    "E4.6" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.6 Singing Glass",
+        "writtenContent" : "Record the sound of a crystal glass humming, and look at a spectrogram to determine the frequency. It is possible to break the glass by playing a sound that is the same frequency and the right amplitude to exceed the strength of the crystal."   
+    },
+    "E4.7" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.7 Same sound, different place",
+        "writtenContent" : "Record the same sound with the same microphone at the same distance and angle in different places inside and outside. Hang some cloth around the sides of your mic and notice how it changes the sound of the recording. Try to find a highly reflective space like a four-sided glassed-in shower, or concrete or plastic playground tube.",
+        "audio" : ""    
+    },
+    "E4.8" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.8 Room tone",
+        "writtenContent" : "<strong> Room tone </strong> is typically gathered on a film or television set for later use, and involves two minutes without anyone making noise, just recording the ambient space (inside or outside). Go record some room tones!  ",
+        "audio" : ""    
+    },
+    "E4.9" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.9 Stitching Reverbs",
+        "writtenContent" : "Play your favourite song in three different rooms on the same device, and record the playing of the song in the space. Put 10 seconds of each version back to back a few times, alternating with hard cuts between them, compare the sound of each.",
+        "audio" : ""    
+    },
+    "E4.10" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.10 Reverb in Audacity",
+        "writtenContent" : "Record some sounds and try out some different reverb effects on them. If you select the “Manage” menu, you will be given the option of a variety of presets. Try the different settings out and preview the setting to hear the difference",
+        "audio" : "",
+        "url" : ""
+    },
+    "E4.11" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.11 Thinking about Reverb",
+        "writtenContent" : "What associations or memories do you have with reverberation? How much reverberation do you associate with warmth, versus the “voice in my head” effect? To create the voice of a ghost? To simulate a sound in a cave? Try using reverb on different sound samples and at different settings to create different effects.",
+        "audio" : ""    
+    },
+    "E4.12" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise: # 4.12 Echo",
+        "writtenContent" : "Try out some different echo settings on a sound sample, listen and compare. What uses besides environmental sounds could you imagine for an echo effect?",
+        "audio" : ""    
+    },
+    "E4.13" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.13 Digital Delay ",
+        "writtenContent" : "Try out the various delay settings and pre-sets on a sound sample, and listen and compare. How does the delay effect compare with echo?",
+        "audio" : ""    
+    },
+    "E4.14" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.14 Hearing Delay ",
+        "writtenContent" : "Find three examples of music that use delay effects. Why do you think the musicians chose to use delay? What effect does it have?"   
+    },
+    "E4.15" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.15 Chorus",
+        "writtenContent" : "Includes a list",
+        "audio" : ""
+    },
+    "E4.16" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.16 Listening for Phasing ",
+        "writtenContent" : "Find some examples of music that uses a phasing effect. How does it change the feeling of the sound?"
+    },
+    "E4.17" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.17 Phasing",
+        "writtenContent" : "Explore the phaser effect by adjusting the phaser parameters and pre-sets on a sound you’re familiar with. What do you think you would use different degrees of this effect for?",
+        "audio" : ""
+    },
+    "E4.18" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.18 Flanging",
+        "writtenContent" : "There is no flanger effect by default in Audacity, but you can install a plug-in flanger effect and explore flanging <<link*>>. How does it change the sound of different samples?",
+        "link" : "https://forum.audacityteam.org/viewtopic.php?t=95059"
+    },
+    "E4.19" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.19 Droning on",
+        "writtenContent" : "Use the speed and tempo tools  (Effect> Change Speed  |  Effect > Change Tempo) to make a drone from an everyday sound.  Try to stretch it out to different lengths, and try out different sounds.",
+        "audio" : ""
+    },
+    "E4.20" : {
+        "chapterName" : "Chapter Four: Sounds in Space",
+        "exerciseName" : "Exercise #4.20 Worldizing",
+        "writtenContent" : "“Worldize” a group of sounds into three different locations: how does it change the way you hear the sounds? Try to use each of the techniques: record the sounds in one space, use the same reverb settings, or download an impulse response for a space and apply that.",
+        "audio" : "",
+        "url" : ""
+    }
+}
