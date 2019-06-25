@@ -2,6 +2,15 @@
 
 /*override bootstrap*/
 /*Charlotte Override bootstrap start */
+
+/* index */
+img.leftcontent_image {padding-left: 30px;}
+img.boom {padding-right: 30px;}
+thumbnail.theme_button {align-content: center;}
+
+.mini_exercise_div {background-color: white; border-radius: 25px;  box-sizing: border-box; display: inline-block;}
+
+/* reading and listening */
 #accordian_setup .heading1 {background-color: #fbcf61; font-weight: 200; color: #3a3a3a; border-radius: 2px;}
 #accordian_setup .heading1:hover {background-color: #ff6f6f; cursor: pointer;}
 #accordian_setup .heading1 a {color: #3a3a3a; font-weight: 700;}
@@ -9,6 +18,15 @@
 .panel-group .collapse-1-1-1 .panel-body {background-color: #565656; color: white;}
 #chaptpan {margin-bottom: 5px;}
 #accordian_setup .collapse-1-1-1-1 {/*text-decoration: underline;*/}
+
+/* gonna see how this goes */
+#progress::before { 
+  display: block; 
+  content: " "; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+/*end of gonna see how this goes */
 
 
 
@@ -77,7 +95,37 @@
     width = 50%;
 }
 
+/*slideshow page*/
 
+.preview {
+    top: 20px;
+}
+.download{
+    bottom: 20px;
+}
+a.preview, a.download {
+    display: block;
+    height: 60px;
+    width: 180px;
+    margin-left: -90px;
+    position: absolute;
+    left: 50%;
+    
+    border: 1px solid white;
+    color: white;
+    background-color: none; 
+    padding-top: 17px;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+a.preview:hover, a.download:hover {
+    border: 1px solid white;
+    color: #ff6f6f;
+    background-color: white; 
+}
 
 /*Charlotte Override bootstrap End */
 .clearfix {clear: both;}
@@ -210,9 +258,9 @@ blockquote h3 {margin-top: 0; font-style: normal;}
 #features {padding: 90px 0 57px;}
 #skills {padding: 88px 0 80px;}
 #testimonials > div {padding-top: 106px; padding-bottom: 90px;}
-#process {padding: 89px 0 0;}
+#process {padding: 89px 0 89px;}
 #team {padding: 91px 0 102px;}
-#progress > div {padding-top: 100px; padding-bottom: 68px;}
+#progress>.container {padding-top: 68px; padding-bottom: 68px;}
 #portfolio {padding: 86px 0 78px;}
 #belowcontent {padding: 89px 0 60px;}
 #info > div {padding-top: 82px; padding-bottom: 88px;}
@@ -529,7 +577,7 @@ aside .block + .block {margin-top: 34px;}
     position: relative;
 }
 
-.bg-color1:after,.bg-color2:after,.bg-color3:after {
+.bg-color1:after,.bg-color2:after,.bg-color3:after{
     display: block; 
     content: ""; 
     position: absolute;
@@ -556,7 +604,7 @@ aside .block + .block {margin-top: 34px;}
     background-color: rgba(0,0,0,0.02);
     z-index: 0;
 }
-.bg-color1>div:before,.bg-color2>div:before,.bg-color3>div:before{
+.bg-color1>div:before,.bg-color2>div:before,.bg-color3>div:before, {
     display: block;
     position: absolute;
     content: "";
@@ -1371,7 +1419,7 @@ top:100px;
 #portfolioContainer article {margin-top: 15px;}
 ul#portfolioContainer {padding: 0; margin: 0; list-style: none; text-align: center; }
 #portfolio h4 {margin-top: 0;}
-#portfolio .isotope-item {max-width: 100%; overflow: hidden; float: left; width: 25%; margin-left: -1px;/* margin-bottom: 30px; */ list-style: none;}
+#portfolio .isotope-item {max-width: 100%; overflow: hidden; float: left; width: 25%; margin-left: -1px; margin-bottom: 30px; list-style: none;}
 @media screen and (max-width: 991px) {
     #portfolio .isotope-item {width:33.3333%;}
 }
@@ -1942,7 +1990,7 @@ content: '\e833';
 font-size: 20px;
 }
 
-.thumbnail > img {border-radius: 0;}
+.thumbnail > img {border-radius: 0; height: 300px;}
 .thumbnail {
     position: relative;
     margin-bottom: 0;
@@ -1958,7 +2006,7 @@ font-size: 20px;
     top: 0;
     bottom: 90px;
     background-color: #ff6f6f;
-    background-color: rgba(253, 112, 112, 0.9);
+    background-color: rgba(253, 112, 112, 0.97);
     filter: alpha(opacity=0);
     opacity: 0;
 
@@ -1972,6 +2020,7 @@ font-size: 20px;
 .thumbnail .caption h4 {font-size: 24px; font-weight: 700; margin:6px 0 0px; }
 .thumbnail .caption h4+p {color:#fff; text-transform: uppercase; font-size: 12px;}
 .thumbnail p.team-social {padding: 35px 20px 25px; margin:0; text-align: center; }
+.thumbnail .subcaption {height: 90px; text-align: center; transform: translateY(35%)}
 
 /*contact form widget*/
 .contact-form p {}

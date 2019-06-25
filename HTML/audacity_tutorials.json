@@ -1,0 +1,54 @@
+{   
+    "a_tutorials" : [
+        {
+            "title" : "Binaural Beats",
+            "description" : "Learn about Binaural Beats",
+            "video" : "binaural%20beats.mp4",
+            "image" : "example/blog-secondary1.jpg",
+            "filter" : "basicsfilter"
+        },
+        {
+            "title" : "Spectrogram and Plot Spectrum",
+            "description" : "",
+            "video" : "spectrogram.mp4",
+            "image" : "example/blog-secondary1.jpg",
+            "filter" : "effectsfilter"
+        },
+        {
+            "title" : "Harmonics",
+            "description" : "",
+            "video" : "videos/harmonics.mp4",
+            "image" : "example/blog-secondary1.jpg",
+            "filter" : "basicsfilter"
+        },
+        {
+            "title" : "Install Plug-ins Mac",
+            "description" : "",
+            "video" : "installingplugins-macpt1.mp4",
+            "image" : "example/blog-secondary1.jpg",
+            "filter" : "effectsfilter"
+        },
+        {
+            "title" : "Install Plu-ins PC",
+            "description" : "",
+            "video" : "pluginsPC.mp4",
+            "image" : "example/blog-secondary1.jpg",
+            "filter" : "effectsfilter"
+        },
+        {
+            "title" : "Sinewaves",
+            "description" : "",
+            "video" : "sinewave.mp4",
+            "image" : "example/blog-secondary1.jpg",
+            "filter" : "effectsfilter"
+        },
+        {
+            "title" : "Wave Interefence",
+            "description" : "",
+            "video" : "wave_interference",
+            "image" : "example/blog-secondary1.jpg",
+            "filter" : "effectsfilter"
+        }
+    ]
+    
+}
