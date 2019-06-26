@@ -25,56 +25,47 @@
 
 
 <section id="header" class="bg-color0">
-    <div class="container"><div class="row">
-
-      <a class="navbar-brand" href="./index.html"><img src="example/logo.png" alt=""></a>
-
-      <div class="col-sm-12 mainmenu_wrap"><div class="main-menu-icon visible-xs"><span></span><span></span><span></span></div>
-        <ul id="mainmenu" class="nav menu sf-menu responsive-menu superfish">
-          <li class="">
-            <a href="./index.html#features">About</a>
-          </li>
-          <li class="">
-            <a href="./index.html#portfolio">Portfolio</a>
-          </li>
-          <li class="">
-            <a href="./index.html#belowcontent">Blog</a>
-          </li>
-          <li class="">
-            <a href="./index.html#info">Contact</a>
-          </li>
-          
-          <li class="dropdown">
-            <a href="./about.html">Pages</a>
-            <ul class="nav dropdown-menu">
-              <li class="">
-                <a href="./about.html">About</a>
-              </li>
-              <li class="">
-                <a href="./gallery-single.html">Gallery Item</a>
-              </li>
-              <li class="">
-                <a href="./blog.html">Blog</a>
-              </li>
-              <li class="">
-                <a href="./blog-single.html">Blog Post</a>
-              </li>
-              <li class="">
-                <a href="./404.html">404</a>
-              </li>
-              <li class="">
-                <a href="./contact.html">Contact</a>
-              </li>
-              <li class="">
-                <a href="./shortcodes.html">Shortcodes</a>
-              </li>
-
-            </ul>
-          </li>
-        </ul>
-      </div>
-      
-    </div></div>
+    <div class="container">
+        <div class="row">
+            <a class="navbar-brand" href="#top"><img src=img/logospacing.png></a>
+            <div class="col-sm-12 mainmenu_wrap">
+                <div class="main-menu-icon visible-xs"><span></span><span></span><span></span></div>
+                <ul id="mainmenu" class="nav menu sf-menu responsive-menu superfish">
+                    <li class="">
+                        <a href="indexn.html">About</a>
+                    </li>
+                    <li class="">
+                        <a href="Exercises-page.html">Exercises</a>
+                    </li>
+                    <li class="dropdown">
+                        <a>Tutorials</a>
+                        <ul class="nav dropdown-menu">
+                            <li class="">
+                                <a href="./tutorials_audacity.html">Audacity</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./about.html">Resources</a>
+                        <ul class="nav dropdown-menu">
+                            <li class="">
+                                <a href="Slideshows.html">Slide Decks</a>
+                            </li>
+                            <li class="">
+                                <a href="Listening.html">Listening</a>
+                            </li>
+                            <li class="">
+                                <a href="Reading.html">Reading</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!--
@@ -183,21 +174,28 @@
     
     
     
-  <div class="col-sm-9">
-    <div class="content-area" id="primary">
-      <div role="main" class="site-content" id="content">
-        
-          <header class="chapter-header">
-              <h1 class="entry-title" id="chaptdiv">Chapter 1-10</h1>
-              <div id="exercise_div">
-                  <h4 id="exerdiv" > Welcome to the Exercise Page!</h4>
-                  <p id="paradiv"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                  </p>
-                  <div class="exercisevideo" id="videodiv"></div>
-                  <div class="exercisevideo" id="videodiv2"></div>
-              </div>
-          </header> <!-- main section framework -->
-        
+          <div class="col-sm-9">
+                <div class="content-area" id="primary">
+                  <div role="main" class="site-content" id="content">
+
+                      <header class="chapter-header">
+                          <h1 class="entry-title" id="chaptdiv">Exercises</h1>
+                          <div id="exercise_div">
+                              <h4 id="exerdiv" > Welcome to the Exercise Page!</h4>
+                              <p id="paradiv"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                              </p>
+                              <div class="exercisevideo" id="videodiv"></div>
+                              <div class="exercisevideo" id="videodiv2"></div>
+                          </div>
+
+                      </header> <!-- main section framework -->
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
 
 
 <div class="preloader">
@@ -234,7 +232,7 @@
         <script>
         // create the side navigation
           $(document).ready(function(){ 
-              $.getJSON("documents/Exercises-Chapter-1.json", function(result){ /* result is the variable that carries the json */
+              $.getJSON("documents/Exercises-Chapter-1.json", function(result){ // result is the variable that carries the json 
                 $.each(result, function(i, field){                               
                     var para = document.createElement("div");
                     para.className = "panel-body";
@@ -242,7 +240,7 @@
                     document.getElementById("SideMenuC1").appendChild(para);
                 });
               });
-                $.getJSON("documents/exercises-Chapter-2.json", function(result){ /* result is the variable that carries the json */
+                $.getJSON("documents/exercises-Chapter-2.json", function(result){ // result is the variable that carries the json 
                     $.each(result, function(i, field){                               
                         var para = document.createElement("div");
                         para.className = "panel-body";
@@ -250,15 +248,8 @@
                         document.getElementById("SideMenuC2").appendChild(para);
                     });
                 });
-                $.getJSON("documents/exercises-Chapter-3.json", function(result){ /* result is the variable that carries the json */
-                    $.each(result, function(i, field){                               
-                        var para = document.createElement("div");
-                        para.className = "panel-body";
-                        para.innerHTML = "<a id="+'"'+i+'"'+">" + JSON.stringify(field.exerciseName).replace(/"/g,"") + "</a>";
-                        document.getElementById("SideMenuC3").appendChild(para);
-                    });
-                });
-          });
+                
+          }); 
           
           </script>  
          
@@ -268,7 +259,7 @@
                 document.getElementById("accordion").addEventListener("click",function(e) { // required for event delgation - https://davidwalsh.name/event-delegate
                     var buttonid = $(event.target)[0].id; /* get the id of the thing clicked ex. E1.1*/
                     var jsonpath = "";
-                    buttonid.startsWith("E1") ? jsonpath = "documents/Exercises-Chapter-2.json" // if else for which json to get
+                    buttonid.startsWith("E1") ? jsonpath = "documents/Exercises-Chapter-1.json" // if else for which json to get
                     :buttonid.startsWith("E2") ? jsonpath = "documents/Exercises-Chapter-2.json"
                     :buttonid.startsWith("E3") ? jsonpath = "documents/Exercises-Chapter-3.json"
                     : console.log("normal button");
@@ -332,6 +323,7 @@
                     });
             }); // http://jsfiddle.net/Hbgz3/2/
         </script>
-
+        </div>
+        
     </body>
 </html>

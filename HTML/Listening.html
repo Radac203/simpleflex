@@ -89,51 +89,64 @@
     <div class="container">
      <div class="row">
           <div class="col-sm-12 text-center">
-              <h2 class="block-header">Audacity Tutorials</h2>
-              <p>Learn the basics and effects using Audacity</p>
+              <h2 class="block-header">Reading</h2>
+              <p>Take your knowledge further!</p>
           </div>
       </div>
         <div id="portfolio_wrapper">
         <div class="text-center filters"> <!--video filter menu-->
           <ul id="filtrable">
             <li><a class="selected" data-filter="*" href="#">All</a></li>
-            <li><a data-filter=".basicsfilter" href="#" class="">The Basics</a></li>
-            <li><a data-filter=".effectsfilter" href="#" class="">Effects</a></li>
+            <li><a data-filter=".chapter1" href="#" class="">Chapter 1</a></li>
+            <li><a data-filter=".chapter2" href="#" class="">Chapter 2</a></li>
+            <li><a data-filter=".chapter3" href="#" class="">Chapter 3</a></li>
+            <li><a data-filter=".chapter4" href="#" class="">Chapter 4</a></li>
+            <li><a data-filter=".chapter5" href="#" class="">Chapter 5</a></li>
+            <li><a data-filter=".chapter6" href="#" class="">Chapter 6</a></li>
+            <li><a data-filter=".chapter7" href="#" class="">Chapter 7</a></li>
+            <li><a data-filter=".chapter8" href="#" class="">Chapter 8</a></li>
+            <li><a data-filter=".chapter9" href="#" class="">Chapter 9</a></li>
           </ul>
           <div class="clearfix"></div>
         </div>
         </div> 
         
-          <div class="row widget_from_blog filterable isotope clearfix " id="portfolioContainer"  > <!-- all videos div -->
-             
-             <div class="col-sm-4 filterable item isotope-item basicsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
-              <div class="row">
-              <article class="post format-video secondary_post clearfix">
-                  <div class="col-sm-6">
-                    <header class="entry-header">
-                      <div class="entry-thumbnail">
-                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
-                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/binaural%20beats.mp4?iframe=true&width=1000&height=500"></a>
-
-                      </div>
-                     </header>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="entry-content">
-                      <h4 class="entry-title">
-                        <a href="./blog-single.html" rel="bookmark">Binaural Beats</a>
-                      </h4>
-                        <div class="video_description"><p>Learn about Binaural Beats!</p></div>
-                      
-                    </div>
-                    <!-- .entry-content -->
-                  </div>
-                  </article>
+         <div class="row widget_from_blog filterable isotope clearfix" id="portfolioContainer"> <!-- all videos div -->
+             <div class="col-sm-12 filterable item chapter2">
+                <!-- Video Widget: Start--> <!-- place filter name here -->
+                <div class="row">
+                    <article class="post format-standard secondary_post clearfix">
+                        <div class="col-sm-1">
+                            <header class="entry-header">
+                                <div class="entry-thumbnail">
+                                    <img src="example/pdfthumb.jpg"  class="post-image" alt="">
+                                </div>
+                            </header>
+                        </div>
+                        <div class="col-sm-11">
+                            <div class="entry-content">
+                                <h4 class="entry-title">
+                                    <a href="./blog-single.html" rel="bookmark">The Three Listening Modes</a>
+                                    <span>Michel Chion</span>
+                                </h4>
+                                <p class="date">
+                                    <span class="entry-date">from Audio-Vision, pp. 25-34</span>
+                                </p>
+                                <div class="video_description">
+                                    <p>Deep Listening: A Composer’s Guide to Sound Practice 2005 iUniverse, Inc. New York
+                                        Oliveros’ book offers a different type of listening practice, focused on years of studying Zen and meditation. Oliveros reflects on her retreats and workshops and presents several deep listening exercises influenced by meditative practice. Perhaps most useful in my opinion is her slow walk, a meditation walk in which one attempts to walk as slowly as possible while listening. She states “walk so silently that the bottoms of your feet become ears”. 
+                                    </p>
+                                </div>
+                                <button>PDF</button>
+                            </div>
+                            <!-- .entry-content -->
+                        </div>
+                    </article>
                 </div>
-            </div> 
+            </div>            
         </div>
     </div>
-</section>
+</section> 
 
 
 <!--footer -->
@@ -146,7 +159,7 @@
 <section id="copyright" class="dark_section">
   <div class="container"><div class="row">
     
-    <div class="col-sm-12"><p class="text-center">&copy; Copyright 2014. Simpleflex Template by <a href="http://modernwebtemplates.com" target="_blank">MW Templates</a></p></div>
+    <div class="col-sm-12"><p class="text-center">&copy; Copyright 2019 Karen Collins</p></div>
 
   </div></div>
 </section>
@@ -182,50 +195,51 @@
         
         
         
-        <script id="tutorials" type="text/template">
-            {{#a_tutorials}}
-            <div class="col-sm-4 filterable item isotope-item {{filter}}"> 
-              <div class="row">
-                <article class="post format-video secondary_post clearfix">
-                  <div class="col-sm-6">
-                    <header class="entry-header">
-                      <div class="entry-thumbnail">
-                        <img src="example/blog-secondary1.jpg" alt="{{image}}" class="post-image" alt="">
-                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/{{video}}?iframe=true&width=1000&height=500"></a>
-
-                      </div>
-                     </header>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="entry-content">
-                      <h4 class="entry-title">
-                        <a href="./blog-single.html" rel="bookmark">{{title}}</a>
-                      </h4>
-                        <div class="video_description"><p>{{description}}</p></div>
-
+        
+        <script id="readingtemp" type="text/template">
+            {{#reading}}
+                <div class="col-sm-12 filterable item {{filter}}">
+                    <!-- Video Widget: Start--> <!-- place filter name here -->
+                    <div class="row">
+                        <article class="post format-standard secondary_post clearfix">
+                            <div class="col-sm-1">
+                                <header class="entry-header">
+                                    <div class="entry-thumbnail">
+                                        <img src="example/pdfthumb.jpg"  class="post-image" alt="">
+                                    </div>
+                                </header>
+                            </div>
+                            <div class="col-sm-11">
+                                <div class="entry-content">
+                                    <h4 class="entry-title">
+                                        <a href="{{location}}" target=_blank rel="bookmark">{{title}}</a> 
+                                        <span class="author">{{author}}</span>
+                                    </h4>
+                                    <p class="date">
+                                        <span class="entry-date">{{info}}</span>
+                                        <br> <span style="color: #ff6f6f">pdf</span>
+                                    </p>
+                                    <div class="video_description">
+                                        <p>{{description}}</p>
+                                    </div>
+                                </div>
+                                <!-- .entry-content -->
+                            </div>
+                        </article>
                     </div>
-                    <!-- .entry-content -->
-                  </div>
-                  </article>
                 </div>
-            </div> <!--video widget end--> 
-            {{/a_tutorials}}
+            {{/reading}}
         </script>
-        
-
-        
+       
         <script type="text/javascript"> // use template and json to create html
             $(document).ready(function(){
                 
-                $.getJSON('audacity_tutorials.JSON', function(data) { 
-                    var template1 = $('#tutorials').html(); 
+                $.getJSON('JSON/reading.JSON', function(data) { 
+                    var template1 = $('#readingtemp').html(); 
                     var html = Mustache.to_html(template1, data); 
-                    console.log(template1);
                     $('#portfolioContainer').html(html);
                 });
             });
         </script>
- 
-
     </body>
 </html>

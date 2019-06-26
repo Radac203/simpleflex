@@ -28,6 +28,9 @@ thumbnail.theme_button {align-content: center;}
 }
 /*end of gonna see how this goes */
 
+/* reading page */
+.author {font-style: italic; font-weight: 100;}
+
 
 
 /* glyphicons */ /* taken from : https://codepen.io/tofanelli/pen/waadRY*/
@@ -102,6 +105,7 @@ thumbnail.theme_button {align-content: center;}
 }
 .download{
     bottom: 20px;
+    
 }
 a.preview, a.download {
     display: block;
@@ -283,7 +287,7 @@ blockquote h3 {margin-top: 0; font-style: normal;}
     #header select {margin: 0 auto; }
     #header [class*="col-"] + [class*="col-"] {margin-top: 10px; margin-bottom: 10px;}
     #partners [class*="col-"] + [class*="col-"] {margin-top: 30px;}
-    #portfolioContainer [class*="col-"] + [class*="col-"] {margin-top:20px; margin-bottom: 20px;}
+    #portfolioContainer, #readingsContainer [class*="col-"] + [class*="col-"] {margin-top:20px; margin-bottom: 20px;}
     #mainslider .container { padding-top: 150px; padding-bottom: 80px;} 
     #mainslider [class*="col-"] + [class*="col-"] {margin-top:10px; margin-bottom: 10px;}
     #mainslider img {max-width: 100%; max-height: 350px; padding:20px 0 0;}
@@ -1368,7 +1372,7 @@ background: #fff;
 transition: 0.3s all ease-in-out;  
  }
 .isotope-item:hover .portfolio_item_image:after {
-top:100px;
+top: 97px;
 } 
 .p-link {
     margin-left: 70px;
@@ -1416,8 +1420,10 @@ top:100px;
 .horizontal_slider_item:hover .p-view, .portfolio_item_image:hover .p-view {opacity: 1;}
 
 /*gallery*/
-#portfolioContainer article {margin-top: 15px;}
-ul#portfolioContainer {padding: 0; margin: 0; list-style: none; text-align: center; }
+#portfolioContainer article, #readingsContainer article {margin-top: 15px;}
+
+ul#portfolioContainer, ul#readingsContainer {padding: 0; margin: 0; list-style: none; text-align: center; }
+#readingsContainer
 #portfolio h4 {margin-top: 0;}
 #portfolio .isotope-item {max-width: 100%; overflow: hidden; float: left; width: 25%; margin-left: -1px; margin-bottom: 30px; list-style: none;}
 @media screen and (max-width: 991px) {
@@ -1578,7 +1584,7 @@ article.post.secondary_post header {
     margin-right: -15px;
 }
 article.post.secondary_post {margin-left: 15px; margin-right: 15px; margin-bottom: 15px;}
-p.date {font-weight: 700; text-transform: uppercase; font-size: 12px; color:#fff; margin-bottom: 10px;}
+p.date {font-weight: 100; text-transform: uppercase; font-size: 12px; color:#fff; margin-bottom: 0px;}
 .entry-share {margin:20px 0 10px;}
 .blog article.post > header > h2, .blog article.post > header > .entry-meta, .blog article.post > .entry-content {margin-left: 40px; margin-right: 40px;}
 h1.entry-title {font-size: 60px;}
@@ -1590,7 +1596,7 @@ h2.entry-title a:hover {color:#ff6f6f;}
 .entry-meta a {color:#fff;}
 .entry-meta a:hover{color:#ff6f6f;}
 .blog .entry-tags {margin-top: 29px; position: relative; background-color: #fff; color:#343434; padding: 23px 40px 19px; border-bottom: 10px solid #fbcf61;}
-.video_description p {font-size: 12px; line-height: 20px; margin-bottom: 0px; margin-top: 25px;}
+.video_description p {font-size: 12px; line-height: 20px; margin-bottom: 0px; margin-top: 0px;}
 .format-small-image .entry-tags  {border-color: #ff6f6f;}
 .format-gallery .entry-tags  {border-color: #a7d163;}
 .entry-tags a {text-transform: uppercase; font-weight: 700; font-size: 12px;}
