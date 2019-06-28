@@ -177,17 +177,17 @@
           <div class="col-sm-9">
                 <div class="content-area" id="primary">
                   <div role="main" class="site-content" id="content">
-
                       <header class="chapter-header">
                           <h1 class="entry-title" id="chaptdiv">Exercises</h1>
                           <div id="exercise_div">
                               <h4 id="exerdiv" > Welcome to the Exercise Page!</h4>
                               <p id="paradiv"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
                               </p>
-                              <div class="exercisevideo" id="videodiv"></div>
-                              <div class="exercisevideo" id="videodiv2"></div>
+                              <div class="exercisevideo text-center" id="videodiv"></div>
+                              <div class="exercisevideo text-center" id="videodiv2"></div>
+                              <div class="text-center" id="audiodiv"></div>
+                              <div class="text-center" id="audiodiv2"></div>
                           </div>
-
                       </header> <!-- main section framework -->
                     </div>
                   </div>
@@ -229,101 +229,102 @@
         <script type="text/javascript">stLight.options({publisher: "ur-6a7e320d-37d8-511-633d-4264e3ae8c", doNotHash: false, doNotCopy: false, hashAddressBar: false});
         </script>
        
-        <script>
-        // create the side navigation
-          $(document).ready(function(){ 
-              $.getJSON("documents/Exercises-Chapter-1.json", function(result){ // result is the variable that carries the json 
-                $.each(result, function(i, field){                               
+        <script>  
+        // create the side navigation 
+            
+            $(document).ready(function(){
+            for(let j=1; j < 11; j++) {
+              $.getJSON("documents/Exercises-Chapter-"+ j +".json", function(result){ // result is the variable that carries the json 
+                $.each(result, function(i, field){ 
+                                    
                     var para = document.createElement("div");
                     para.className = "panel-body";
-                    para.innerHTML = "<a id="+'"'+i+'"'+">" + JSON.stringify(field.exerciseName).replace(/"/g,"") + "</a>";
-                    document.getElementById("SideMenuC1").appendChild(para);
+                    para.innerHTML = "<a id="+'"'+i+'"'+">" + result[i].exerciseName + "</a>";                    
+                    document.getElementById("SideMenuC"+j).appendChild(para);
+                    
                 });
-              });
-                $.getJSON("documents/exercises-Chapter-2.json", function(result){ // result is the variable that carries the json 
-                    $.each(result, function(i, field){                               
-                        var para = document.createElement("div");
-                        para.className = "panel-body";
-                        para.innerHTML = "<a id="+'"'+i+'"'+">" + JSON.stringify(field.exerciseName).replace(/"/g,"") + "</a>";
-                        document.getElementById("SideMenuC2").appendChild(para);
-                    });
-                });
-                
+              }); 
+            }
           }); 
           
-          </script>  
+              
+        </script>  
          
-        <script>
+        <script>  
             // switch content on click
             $(document).ready(function(){
                 document.getElementById("accordion").addEventListener("click",function(e) { // required for event delgation - https://davidwalsh.name/event-delegate
-                    var buttonid = $(event.target)[0].id; /* get the id of the thing clicked ex. E1.1*/
+                    var buttonid = $(event.target)[0].id; // get the id of the thing clicked ex. E1.1
                     var jsonpath = "";
                     buttonid.startsWith("E1") ? jsonpath = "documents/Exercises-Chapter-1.json" // if else for which json to get
                     :buttonid.startsWith("E2") ? jsonpath = "documents/Exercises-Chapter-2.json"
                     :buttonid.startsWith("E3") ? jsonpath = "documents/Exercises-Chapter-3.json"
+                    :buttonid.startsWith("E4") ? jsonpath = "documents/Exercises-Chapter-4.json"
+                    :buttonid.startsWith("E5") ? jsonpath = "documents/Exercises-Chapter-5.json"
+                    :buttonid.startsWith("E6") ? jsonpath = "documents/Exercises-Chapter-6.json"
+                    :buttonid.startsWith("E7") ? jsonpath = "documents/Exercises-Chapter-7.json"
+                    :buttonid.startsWith("E8") ? jsonpath = "documents/Exercises-Chapter-8.json"
+                    :buttonid.startsWith("E9") ? jsonpath = "documents/Exercises-Chapter-9.json"
+                    :buttonid.startsWith("E10") ? jsonpath = "documents/Exercises-Chapter-10.json"
                     : console.log("normal button");
                    
 
-                    $.getJSON(jsonpath, function(result){ /* jsonpath decides which json to load, result is the variable that carries the json */
-                    $.each(result, function(i, field){ /* field is each entire object, i = the names of each object*/
-                        if (i === buttonid) {
-                            /* console.log(buttonid['Writtencontent']);*/
-                            document.getElementById("chaptdiv").innerHTML = JSON.stringify(field.chapterName).replace(/"/g,"");
-                            document.getElementById("exerdiv").innerHTML = JSON.stringify(field.exerciseName).replace(/"/g,""); 
-                            document.getElementById("paradiv").innerHTML = JSON.stringify(field.writtenContent).replace(/"/g,"");
-                            
-                            
-                            /* //broken code breaks each letter into own object, works for arrays - I could make all written content arrays
-                            var breakingParagraphs = ""; // break arrays in the written content section into paragraphs
-                            for (i in field.writtenContent) {
-                                var line = field.writtenContent[i];
-                                breakingParagraphs += "<p>" + line + "</p>";  
+                    $.getJSON(jsonpath, function(result){ // jsonpath decides which json to load, result is the variable that carries the json   
+                        $.each(result, function(i, field){ // field is each entire object, i = the names of each object
+                            if (i === buttonid) {
+                                
+                                // result is the same as = 
+                                //var data = JSON.stringify(result);
+                                //var json = JSON.parse(data);
+
+                                document.getElementById("chaptdiv").innerHTML = result[i].chapterName;
+                                document.getElementById("exerdiv").innerHTML = result[i].exerciseName;
+                                
+                                // break written content into paragraphs if is an array
+                                if(Array.isArray(result[i].writtenContent)) {
+                                    var html = "";
+                                    for(var x=0; x < result[i].writtenContent.length; x++){
+                                        html += "<p>" + result[i].writtenContent[x] + "</p>";
+                                    }
+                                    document.getElementById("paradiv").innerHTML = html;     
+                                } else {
+                                    document.getElementById("paradiv").innerHTML = result[i].writtenContent;
+                                }
+
+
+                        // displaying different types of content
+                            if('url' in field) {
+                                document.getElementById("videodiv").innerHTML = '<iframe id="frame1" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+                                document.getElementById('frame1').src = result[i].url; 
+                                
+                            } else {
+                                document.getElementById("videodiv").innerHTML = '';
                             }
-                            document.getElementById("paradiv").innerHTML = JSON.stringify(breakingParagraphs).replace(/"/g,"")
-                            */    
-                        if('url' in field) {
-                            document.getElementById("videodiv").innerHTML = '<iframe id="frame1" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-                            document.getElementById('frame1').src = JSON.stringify(field.url).replace(/"/g,""); 
-                        } else {
-                            document.getElementById("videodiv").innerHTML = '';
+                            if('url2' in field) {
+                                document.getElementById("videodiv2").innerHTML = '<iframe id="frame2" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+                                document.getElementById('frame2').src = result[i].url2;                            
+                            } else {
+                                document.getElementById("videodiv2").innerHTML = '';
+                            }
+                            if('audio' in field){
+                                document.getElementById("audiodiv").innerHTML = '<audio id="audio2" controls><source src="horse.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
+                                document.getElementById('audio2').src = result[i].audio;
+                            }
+                            else {
+                              document.getElementById("audiodiv").innerHTML = ''  
+                            }
+                            if('audio2' in field) {
+                                document.getElementById("audiodiv2").innerHTML = '<audio id="audio3" controls><source src="horse.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
+                                document.getElementById('audio3').src = result[i].audio2;  
+                            } else {
+                                document.getElementById("audiodiv2").innerHTML = ''
+                            }
                         }
-                        if('url2' in field) {
-                            document.getElementById("videodiv2").innerHTML = '<iframe id="frame2" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-                            document.getElementById('frame2').src = JSON.stringify(field.url2).replace(/"/g,"");                            
-                        } else {
-                            document.getElementById("videodiv2").innerHTML = '';
-                        }
-                    }
-                  });    
+                    });    
                 });
               });
-            }); <!-- getJSON OG code : https://www.w3schools.com/jquery/ajax_getjson.asp -->
+            }); // getJSON OG code : https://www.w3schools.com/jquery/ajax_getjson.asp 
     
-      </script>
-        <script>
-            //change the color on the sidenav - not super functional
-            $(document).ready(function() {
-                    $('.panel-body').click(function() {
-                            $('.panel-body').css('background-color', '#343434');
-                            $(this).css('background-color', '#fbcf61');
-                            $(this).data("bgColor", "#fbcf61")
-                            return false;
-                    });
-            });
-
-            $(document).ready(function() {
-                    $(function() {
-                            $('.panel-body').hover(function() {
-                                    $(this).data("bgColor", $(this).css('background-color'));
-                                    $(this).css('background-color', 'white');
-                            }, function() {
-                                    $(this).css('background-color', $(this).data("bgColor"));
-                            });
-                    });
-            }); // http://jsfiddle.net/Hbgz3/2/
-        </script>
-        </div>
-        
+      </script> 
     </body>
 </html>
