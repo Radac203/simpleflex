@@ -18,6 +18,11 @@ thumbnail.theme_button {align-content: center;}
 .panel-group .collapse-1-1-1 .panel-body {background-color: #565656; color: white;}
 #chaptpan {margin-bottom: 5px;}
 #accordian_setup .collapse-1-1-1-1 {/*text-decoration: underline;*/}
+#chapters {border-left: 10px solid #ff6f6f; font-size: 17px; margin-bottom: 24px; }
+#chapters > p {font-size: 17px; margin: 0 0 2px}
+#chapters > h3 {font-size: 17px; font-weight: bold; margin-top: 3px; margin-bottom: 3px;}
+#chapter {padding:80px 0 0;}
+
 
 /* gonna see how this goes */
 #progress::before { 
@@ -1412,10 +1417,10 @@ top: 97px;
 }
 
 .horizontal_slider_item:hover img, .isotope-item:hover img {opacity: 0.2;
-    -moz-transform: scaleX(-1);
+   /* -moz-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    transform: scaleX(-1); */
 }
 .horizontal_slider_item:hover .p-view, .portfolio_item_image:hover .p-view {opacity: 1;}
 

@@ -1,0 +1,49 @@
+{
+    "slidedecks" : [
+        {
+            "title": "Chapter 1",
+            "location" : "Documents/TF00001018.pdf",
+            "thumbnail" : ""
+        },
+        {
+            "title": "Chapter 2",
+            "location" : "Documents/TF00001018.pdf",
+            "thumbnail" : ""
+        },
+        {
+            "title": "Chapter 3",
+            "location" : "Documents/TF00001018.pdf",
+            "thumbnail" : ""
+        },
+        {
+            "title": "Chapter 5",
+            "location" : "Documents/TF00001018.pdf",
+            "thumbnail" : ""
+        },
+        {
+            "title": "Chapter 6",
+            "location" : "Documents/TF00001018.pdf",
+            "thumbnail" : ""
+        },
+        {
+            "title": "Chapter 7",
+            "location" : "Documents/TF00001018.pdf",
+            "thumbnail" : ""
+        },
+        {
+            "title": "Chapter 8",
+            "location" : "Documents/TF00001018.pdf",
+            "thumbnail" : ""
+        },
+        {
+            "title": "Chapter 9",
+            "location" : "Documents/TF00001018.pdf",
+            "thumbnail" : ""
+        },
+        {
+            "title": "Chapter 10",
+            "location" : "Documents/TF00001018.pdf",
+            "thumbnail" : ""
+        }
+    ]
+}

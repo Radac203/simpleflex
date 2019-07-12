@@ -3,7 +3,7 @@
         "chapterName" : "Chapter Four: Sounds in Space",
         "exerciseName" : "Exercise #4.1 Doppler Effect",
         "writtenContent" : "Go out and record the Doppler effect occurring on a road. It will work best with a car that has a siren on, but will work with just regular vehicles too.",
-        "audio" : ""    
+        "audio" : "audio/chapter4/doppler_effect.wav"    
     },
     "E4.2" : {
         "chapterName" : "Chapter Four: Sounds in Space",
@@ -42,7 +42,7 @@
         "chapterName" : "Chapter Four: Sounds in Space",
         "exerciseName" : "Exercise #4.8 Room tone",
         "writtenContent" : "<strong> Room tone </strong> is typically gathered on a film or television set for later use, and involves two minutes without anyone making noise, just recording the ambient space (inside or outside). Go record some room tones!  ",
-        "audio" : ""    
+        "audio" : "audio/chapter4/room_tone.wav"    
     },
     "E4.9" : {
         "chapterName" : "Chapter Four: Sounds in Space",
@@ -54,7 +54,7 @@
         "chapterName" : "Chapter Four: Sounds in Space",
         "exerciseName" : "Exercise #4.10 Reverb in Audacity",
         "writtenContent" : "Record some sounds and try out some different reverb effects on them. If you select the “Manage” menu, you will be given the option of a variety of presets. Try the different settings out and preview the setting to hear the difference",
-        "audio" : "",
+        "audio" : "audio/chapter4/exercise4.10_chimes.wav",
         "url" : ""
     },
     "E4.11" : {
@@ -67,13 +67,13 @@
         "chapterName" : "Chapter Four: Sounds in Space",
         "exerciseName" : "Exercise: # 4.12 Echo",
         "writtenContent" : "Try out some different echo settings on a sound sample, listen and compare. What uses besides environmental sounds could you imagine for an echo effect?",
-        "audio" : ""    
+        "audio" : "audio/chapter4/kungfoo_echo.wav"    
     },
     "E4.13" : {
         "chapterName" : "Chapter Four: Sounds in Space",
-        "exerciseName" : "Exercise #4.13 Digital Delay ",
+        "exerciseName" : "Exercise #4.13 Digital Delay",
         "writtenContent" : "Try out the various delay settings and pre-sets on a sound sample, and listen and compare. How does the delay effect compare with echo?",
-        "audio" : ""    
+        "audio" : "audio/chapter4/kungfoo_delay.wav"    
     },
     "E4.14" : {
         "chapterName" : "Chapter Four: Sounds in Space",
@@ -95,7 +95,8 @@
         "chapterName" : "Chapter Four: Sounds in Space",
         "exerciseName" : "Exercise #4.17 Phasing",
         "writtenContent" : "Explore the phaser effect by adjusting the phaser parameters and pre-sets on a sound you’re familiar with. What do you think you would use different degrees of this effect for?",
-        "audio" : ""
+        "audio" : "audio/chapter4/acousticguitar_short.wav",
+        "audio2" : "audio/chapter4/acousticguitar_phaser.wav"
     },
     "E4.18" : {
         "chapterName" : "Chapter Four: Sounds in Space",

@@ -1,54 +1,220 @@
 {   
     "a_tutorials" : [
-        {
-            "title" : "Binaural Beats",
-            "description" : "Learn about Binaural Beats",
-            "video" : "binaural%20beats.mp4",
-            "image" : "example/blog-secondary1.jpg",
-            "filter" : "basicsfilter"
-        },
-        {
-            "title" : "Spectrogram and Plot Spectrum",
-            "description" : "",
-            "video" : "spectrogram.mp4",
-            "image" : "example/blog-secondary1.jpg",
-            "filter" : "effectsfilter"
-        },
-        {
-            "title" : "Harmonics",
-            "description" : "",
-            "video" : "videos/harmonics.mp4",
-            "image" : "example/blog-secondary1.jpg",
-            "filter" : "basicsfilter"
-        },
-        {
-            "title" : "Install Plug-ins Mac",
-            "description" : "",
-            "video" : "installingplugins-macpt1.mp4",
-            "image" : "example/blog-secondary1.jpg",
-            "filter" : "effectsfilter"
-        },
-        {
-            "title" : "Install Plu-ins PC",
-            "description" : "",
-            "video" : "pluginsPC.mp4",
-            "image" : "example/blog-secondary1.jpg",
-            "filter" : "effectsfilter"
-        },
-        {
-            "title" : "Sinewaves",
-            "description" : "",
-            "video" : "sinewave.mp4",
-            "image" : "example/blog-secondary1.jpg",
-            "filter" : "effectsfilter"
-        },
-        {
-            "title" : "Wave Interefence",
-            "description" : "",
-            "video" : "wave_interference",
-            "image" : "example/blog-secondary1.jpg",
-            "filter" : "effectsfilter"
-        }
-    ]
-    
+	{
+		"title": "Attack Splice",
+		"description": "",
+		"video": "attackSplice.mp4",
+		"image": "attackSplice.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Binaural Beats",
+		"description": "Learn about Binaural Beats",
+		"video": "binauralBeats.mp4",
+		"image": "binauralBeats.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Clipping",
+		"description": "",
+		"video": "clipping.mp4",
+		"image": "clipping.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Compression",
+		"description": "",
+		"video": "compressor.mp4",
+		"image": "compressor.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Data Compression",
+		"description": "",
+		"video": "dataCompression.mp4",
+		"image": "dataCompression.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Distortion",
+		"description": "",
+		"video": "distortion.mp4",
+		"image": "distortion.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Ducking",
+		"description": "",
+		"video": "ducking.mp4",
+		"image": "ducking.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "EQ",
+		"description": "",
+		"video": "EQ.mp4",
+		"image": "EQ.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Echo and Delay",
+		"description": "",
+		"video": "echoAndDelay.mp4",
+		"image": "echoAndDelay.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Fades",
+		"description": "",
+		"video": "fades.mp4",
+		"image": "fades.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Flanger",
+		"description": "",
+		"video": "flanger.mp4",
+		"image": "flanger.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Ghost Fundamental",
+		"description": "",
+		"video": "ghostFundamental.mp4",
+		"image": "ghostFundamental.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Harmonics",
+		"description": "",
+		"video": "harmonics.mp4",
+		"image": "harmonics.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Install Plu-ins PC",
+		"description": "",
+		"video": "pluginsPC.mp4",
+		"image": "pluginsPC.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Install Plug-ins Mac",
+		"description": "",
+		"video": "pluginsMac.mp4",
+		"image": "pluginsMac.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Mix and Render",
+		"description": "",
+		"video": "mixAndRender.mp4",
+		"image": "mixAndRender.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Noise Reduction",
+		"description": "",
+		"video": "noiseReduction.mp4",
+		"image": "noiseReduction.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Phaser",
+		"description": "",
+		"video": "phaser.mp4",
+		"image": "phaser.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Pitch Shift",
+		"description": "",
+		"video": "pitchShift.mp4",
+		"image": "pitchshift.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Reverb",
+		"description": "",
+		"video": "reverb.mp4",
+		"image": "reverb.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Reverse Envelopes",
+		"description": "",
+		"video": "reverseEnvelopes.mp4",
+		"image": "reverseEnvelopes.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Samplerate",
+		"description": "",
+		"video": "samplerate.mp4",
+		"image": "samplerate.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Signal to Noise",
+		"description": "",
+		"video": "signalToNoise.mp4",
+		"image": "signalToNoise.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Sinewaves",
+		"description": "",
+		"video": "sinewave.mp4",
+		"image": "sinewave.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Spectrogram and Plot Spectrum",
+		"description": "",
+		"video": "spectrogram.mp4",
+		"image": "spectrogram.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Surround Mix",
+		"description": "",
+		"video": "surroundMix.mp4",
+		"image": "surroundMix.jpg",
+		"filter": "basicsfilter"
+	},
+	{
+		"title": "Tremolo and Vibrato",
+		"description": "",
+		"video": "tremoloVibrato.mp4",
+		"image": "tremoloVibrato.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Vocoder And Ring Modulator",
+		"description": "",
+		"video": "vocoderAndRingModulator.mp4",
+		"image": "vocoderAndRingModulator.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Wah-Wah",
+		"description": "",
+		"video": "wahWah.mp4",
+		"image": "wahWah.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "Wave Interefence",
+		"description": "",
+		"video": "waveInterference.mp4",
+		"image": "waveInterference.jpg",
+		"filter": "effectsfilter"
+	},
+	{
+		"title": "filters",
+		"description": "",
+		"video": "filters.mp4",
+		"image": "filters.jpg",
+		"filter": "effectsfilter"
+	}]   
 }
