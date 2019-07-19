@@ -3,6 +3,7 @@
 /*override bootstrap*/
 /*Charlotte Override bootstrap start */
 
+.dropdown > a {cursor: pointer;}
 /* index */
 img.leftcontent_image {padding-left: 30px;}
 img.boom {padding-right: 30px;}
@@ -70,8 +71,11 @@ thumbnail.theme_button {align-content: center;}
 #exercise_menu .panel-group {margin-top: 50px;} /* not sure how I feel about this */
 #exercise_menu .panel-default div + div { border-top: 1px solid #444444; padding-top: 6px; margin-top: 6px;} /*lines between exercises */
 #exercise_menu .panel-title > a {font-weight: 700; font-size: 14px;}
-#exercise_menu .panel-body > a {font-size: 14px;   padding-left: 2rem ; text-indent: -0.55rem ;}
+#exercise_menu .panel-body > a {font-size: 14px;}
 .panel-body a {cursor:pointer;}
+#exercise_menu .panel-default > .panel-heading {
+    padding-left: 0px;
+}
 
 /*exersize setup */
 .chapter-header .entry-title {color: #fbcf61; font-size: 32px; font-weight: 700; border-bottom: 1px solid; padding-bottom: 12px; margin-bottom: 20px;}
@@ -277,7 +281,7 @@ blockquote h3 {margin-top: 0; font-style: normal;}
 #middleB > div {padding-top: 39px; padding-bottom: 89px;}
 #middle .row + .row {margin-top: 40px;}
 #footer > div{padding-top: 96px; padding-bottom: 94px; }
-#map {height: 400px;}
+#map {height: 220px;}
 #contact {padding: 105px 0 20px;}
 #copyright {padding: 44px 0 44px;}
 #abovecontent {padding: 30px 0;}

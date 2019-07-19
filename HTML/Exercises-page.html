@@ -16,6 +16,18 @@
         <link rel="stylesheet" href="css/animations.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script>
+            // change height of iframe div to respond to the embedded content
+            // copied from : https://stackoverflow.com/questions/9975810/make-iframe-automatically-adjust-height-according-to-the-contents-without-using
+            function resizeIframe(obj) {
+                obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+            }
+        </script>
+        <style >
+            #exercise_menu .panel-body > a::first-line {
+                color:red;
+            }
+        </style>
     </head>
     <body>
          <!--[if lt IE 7]>
@@ -68,18 +80,7 @@
     </div>
 </section>
 
-<!--
-<section id="abovecontent" class="grey_section">
-  <div class="container"><div class="row">
-      <div class="block col-sm-12">
-        <ul class="breadcrumb">
-          <li><a href="#" class="pathway">Home</a></li>
-          <li><span>Gallery</span></li>
-        </ul>
-      </div>
-  </div></div>
-</section>
--->
+
 
 <section id="middleB" class="dark_section"><div class="container"><div class="row blog-single">
 
@@ -178,15 +179,17 @@
                 <div class="content-area" id="primary">
                   <div role="main" class="site-content" id="content">
                       <header class="chapter-header">
-                          <h1 class="entry-title" id="chaptdiv">Exercises</h1>
+                          <h1 class="entry-title" id="chaptdiv">EXERCISES</h1>
                           <div id="exercise_div">
                               <h4 id="exerdiv" > Welcome to the Exercise Page!</h4>
                               <p id="paradiv"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
                               </p>
+                              <div class="text-center" id="urldiv"><a id="urllink" href="www.nothing.com"></a></div>
                               <div class="exercisevideo text-center" id="videodiv"></div>
                               <div class="exercisevideo text-center" id="videodiv2"></div>
                               <div class="text-center" id="audiodiv"></div>
                               <div class="text-center" id="audiodiv2"></div>
+                              <iframe class="text-center" id=iframediv src="" style="width:100%;" frameborder="0" scrolling="no" onload="resizeIframe(this)" onclick="resizeIframe(this)">Your browser doesn’t support the iframe tag. </iframe>
                           </div>
                       </header> <!-- main section framework -->
                     </div>
@@ -265,10 +268,9 @@
             $(document).ready(function(){
             for(let j=1; j < 11; j++) {
               $.getJSON("documents/Exercises-Chapter-"+ j +".json", function(result){ // result is the variable that carries the json 
-                $.each(result, function(i, field){ 
-                                    
+                $.each(result, function(i, field){                    
                     var para = document.createElement("div");
-                    para.className = "panel-body";
+                    para.className = "panel-body indenting";
                     para.innerHTML = "<a id="+'"'+i+'"'+">" + result[i].exerciseName + "</a>";                    
                     document.getElementById("SideMenuC"+j).appendChild(para);
                     
@@ -323,16 +325,15 @@
 
 
                         // displaying different types of content
-                            if('url' in field) {
+                            if('video' in field) {
                                 document.getElementById("videodiv").innerHTML = '<iframe id="frame1" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-                                document.getElementById('frame1').src = result[i].url; 
-                                
+                                document.getElementById('frame1').src = result[i].video;  
                             } else {
                                 document.getElementById("videodiv").innerHTML = '';
                             }
-                            if('url2' in field) {
+                            if('video2' in field) {
                                 document.getElementById("videodiv2").innerHTML = '<iframe id="frame2" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-                                document.getElementById('frame2').src = result[i].url2;                            
+                                document.getElementById('frame2').src = result[i].video2;  
                             } else {
                                 document.getElementById("videodiv2").innerHTML = '';
                             }
@@ -348,6 +349,21 @@
                                 document.getElementById('audio3').src = result[i].audio2;  
                             } else {
                                 document.getElementById("audiodiv2").innerHTML = ''
+                            }
+                            if('url' in field) {
+                                document.getElementById("urldiv").innerHTML = '<a id="urllink" style="color:blue" href="www.nothing.com">words</a>'
+                                document.getElementById('urllink').href = result[i].url; 
+                                document.getElementById("urllink").innerHTML = result[i].url;
+                            } else {
+                                document.getElementById("urldiv").innerHTML = ''
+                            }
+                            if('iframe' in field){
+                                document.getElementById("iframediv").src = result[i].iframe;
+                                console.log(result[i].iframe);
+                            } else {
+                                document.getElementById("iframediv").src = '';
+                                document.getElementById("iframediv").innerHTML = ''
+                                document.getElementById("iframediv").style.display = 'none'
                             }
                         }
                     });    

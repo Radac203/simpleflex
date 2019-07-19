@@ -244,7 +244,7 @@
         <script type="text/javascript"> // use template and json to create html
             $(document).ready(function(){
                 
-                $.getJSON('audacity_tutorials.JSON', function(data) { 
+                $.getJSON('JSON/audacity_tutorials.JSON', function(data) { 
                     var template1 = $('#tutorials').html(); 
                     var html = Mustache.to_html(template1, data); 
                     console.log(template1);
