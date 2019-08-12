@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
+<head>
         <meta charset="utf-8">
         
         <title>Studying Sound Exercises</title>
@@ -11,11 +11,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" /> <!-- scrollbar -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/animations.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/simplebar/4.1.0/simplebar.min.js"></script>-->
         <script>
             // change height of iframe div to respond to the embedded content
             // copied from : https://stackoverflow.com/questions/9975810/make-iframe-automatically-adjust-height-according-to-the-contents-without-using
@@ -23,354 +24,374 @@
                 obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
             }
         </script>
-        <style >
-            #exercise_menu .panel-body > a::first-line {
-                color:red;
-            }
-        </style>
-    </head>
-    <body>
+</head>
+<body>
          <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-
-
-
-<section id="header" class="bg-color0">
-    <div class="container">
-        <div class="row">
-            <a class="navbar-brand" href="#top"><img src=img/logospacing.png></a>
-            <div class="col-sm-12 mainmenu_wrap">
-                <div class="main-menu-icon visible-xs"><span></span><span></span><span></span></div>
-                <ul id="mainmenu" class="nav menu sf-menu responsive-menu superfish">
-                    <li class="">
-                        <a href="index.html">About</a>
-                    </li>
-                    <li class="">
-                        <a href="Exercises-page.html">Exercises</a>
-                    </li>
-                    <li class="dropdown">
-                        <a>Tutorials</a>
-                        <ul class="nav dropdown-menu">
-                            <li class="">
-                                <a href="./tutorials_audacity.html">Audacity</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a>Resources</a>
-                        <ul class="nav dropdown-menu">
-                            <li class="">
-                                <a href="Slideshows.html">Slide Decks</a>
-                            </li>
-                            <li class="">
-                                <a href="Listening.html">Listening</a>
-                            </li>
-                            <li class="">
-                                <a href="Reading.html">Reading</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
+    <section id="header" class="bg-color0">
+        <div class="container">
+            <div class="row">
+                <a class="navbar-brand" href="#top"><img src=img/logospacing.png></a>
+                <div class="col-sm-12 mainmenu_wrap">
+                    <div class="main-menu-icon visible-xs"><span></span><span></span><span></span></div>
+                    <ul id="mainmenu" class="nav menu sf-menu responsive-menu superfish">
+                        <li class="">
+                            <a href="index.html#features">About</a>
+                        </li>
+                        <li>
+                            <a href="Exercises-page.html">Exercises</a>
+                        </li>
+                        <li>
+                            <a href="./tutorials_audacity.html" >Tutorials</a>
+                        </li>
+                        <li class="dropdown">
+                            <a>Resources</a>
+                            <ul class="nav dropdown-menu">
+                                <li class="">
+                                    <a href="slidedecks.html">Slide Decks</a>
+                                </li>
+                                <li class="">
+                                    <a href="Listening.html">Listening</a>
+                                </li>
+                                <li class="">
+                                    <a href="Reading.html">Reading</a>
+                                </li>
+                                <li class="">
+                                    <a href="otherResources.html">Other</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
-
-
-<section id="middleB" class="dark_section"><div class="container"><div class="row blog-single">
-
-    
-    
-<aside class="col-sm-3">
-   <row id="exercise_menu"> 
-        <div class="panel-group scrollable" id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-2">
-                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="false" aria-controls="collapse-2">Chapter 1: Hearing and Listening </a></h4>
-                </div>
-                <div id="collapse-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-                    <div id="SideMenuC1"></div> <!-- this is a super important div, it creates the whole side menu -->
-                </div>
-            </div> <!-- 1 panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-2">
-                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Chapter 2: Sound </a></h4>
-                </div>
-                <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-                    <div id="SideMenuC2"></div> <!-- this is a super important div, it creates the whole side menu -->
-                </div>
-            </div> <!-- 1 panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-2">
-                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="false" aria-controls="collapse-2">Chapter 3: Recording Sounds </a></h4>
-                </div>
-                <div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-                    <div id="SideMenuC3"></div> <!-- this is a super important div, it creates the whole side menu -->
-                </div>
-            </div> <!-- 1 panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-2">
-                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-4" aria-expanded="false" aria-controls="collapse-2">Chapter 4: Sounds in Space</a></h4>
-                </div>
-                <div id="collapse-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-                    <div id="SideMenuC4"></div> <!-- this is a super important div, it creates the whole side menu -->
-                </div>
-            </div> <!-- 1 panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-2">
-                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-5" aria-expanded="false" aria-controls="collapse-2">Chapter 5: Sound Effects  </a></h4>
-                </div>
-                <div id="collapse-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-                    <div id="SideMenuC5"></div> <!-- this is a super important div, it creates the whole side menu -->
-                </div>
-            </div> <!-- 1 panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-2">
-                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-6" aria-expanded="false" aria-controls="collapse-2">Chapter Six: Mixing</a></h4>
-                </div>
-                <div id="collapse-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-                    <div id="SideMenuC6"></div> <!-- this is a super important div, it creates the whole side menu -->
-                </div>
-            </div> <!-- 1 panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-2">
-                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-7" aria-expanded="false" aria-controls="collapse-2">Chapter 7: Surround and Spatial Sound</a></h4>
-                </div>
-                <div id="collapse-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-                    <div id="SideMenuC7"></div> <!-- this is a super important div, it creates the whole side menu -->
-                </div>
-            </div> <!-- 1 panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-2">
-                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-8" aria-expanded="false" aria-controls="collapse-2">Chapter 8: Sound and Meaning</a></h4>
-                </div>
-                <div id="collapse-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-                    <div id="SideMenuC8"></div> <!-- this is a super important div, it creates the whole side menu -->
-                </div>
-            </div> <!-- 1 panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-2">
-                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-9" aria-expanded="false" aria-controls="collapse-2">Chapter 9: Sound for Story</a></h4>
-                </div>
-                <div id="collapse-9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-                    <div id="SideMenuC9"></div> <!-- this is a super important div, it creates the whole side menu -->
-                </div>
-            </div> <!-- 1 panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-2">
-                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-10" aria-expanded="false" aria-controls="collapse-2">Chapter 10: Conclusions and Wrap-Up</a></h4>
-                </div>
-                <div id="collapse-10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-                    <div id="SideMenuC10"></div> <!-- this is a super important div, it creates the whole side menu -->
-                </div>
-            </div> <!-- 1 panel -->
-       </div>
-    </row>
-</aside> <!-- side navigation -->        
-    
-    
-    
-          <div class="col-sm-9">
-                <div class="content-area" id="primary">
-                  <div role="main" class="site-content" id="content">
-                      <header class="chapter-header">
-                          <h1 class="entry-title" id="chaptdiv">EXERCISES</h1>
-                          <div id="exercise_div">
-                              <h4 id="exerdiv" > Welcome to the Exercise Page!</h4>
-                              <p id="paradiv"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                              </p>
-                              <div class="text-center" id="urldiv"><a id="urllink" href="www.nothing.com"></a></div>
-                              <div class="exercisevideo text-center" id="videodiv"></div>
-                              <div class="exercisevideo text-center" id="videodiv2"></div>
-                              <div class="text-center" id="audiodiv"></div>
-                              <div class="text-center" id="audiodiv2"></div>
-                              <iframe class="text-center" id=iframediv src="" style="width:100%;" frameborder="0" scrolling="no" onload="resizeIframe(this)" onclick="resizeIframe(this)">Your browser doesn’t support the iframe tag. </iframe>
-                          </div>
-                      </header> <!-- main section framework -->
+    </section>
+    <section id="middleB" class="dark_section">
+        <div class="container">
+            <div class="row blog-single">
+                <aside class="col-sm-3">
+                    <row id="exercise_menu">
+                        <div class="panel-group scrollable" data-simplebar data-simplebar-auto-hide="false" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading-2">
+                                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="false" aria-controls="collapse-2">Chapter 1: Hearing and Listening </a></h4>
+                                </div>
+                                <div id="collapse-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                    <div id="SideMenuC1"></div>
+                                    <!-- this is a super important div, it creates the whole side menu -->
+                                </div>
+                            </div>
+                            <!-- 1 panel -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading-2">
+                                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Chapter 2: Sound </a></h4>
+                                </div>
+                                <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                    <div id="SideMenuC2"></div>
+                                    <!-- this is a super important div, it creates the whole side menu -->
+                                </div>
+                            </div>
+                            <!-- 1 panel -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading-2">
+                                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="false" aria-controls="collapse-2">Chapter 3: Recording Sounds </a></h4>
+                                </div>
+                                <div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                    <div id="SideMenuC3"></div>
+                                    <!-- this is a super important div, it creates the whole side menu -->
+                                </div>
+                            </div>
+                            <!-- 1 panel -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading-2">
+                                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-4" aria-expanded="false" aria-controls="collapse-2">Chapter 4: Sounds in Space</a></h4>
+                                </div>
+                                <div id="collapse-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                    <div id="SideMenuC4"></div>
+                                    <!-- this is a super important div, it creates the whole side menu -->
+                                </div>
+                            </div>
+                            <!-- 1 panel -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading-2">
+                                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-5" aria-expanded="false" aria-controls="collapse-2">Chapter 5: Sound Effects  </a></h4>
+                                </div>
+                                <div id="collapse-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                    <div id="SideMenuC5"></div>
+                                    <!-- this is a super important div, it creates the whole side menu -->
+                                </div>
+                            </div>
+                            <!-- 1 panel -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading-2">
+                                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-6" aria-expanded="false" aria-controls="collapse-2">Chapter Six: Mixing</a></h4>
+                                </div>
+                                <div id="collapse-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                    <div id="SideMenuC6"></div>
+                                    <!-- this is a super important div, it creates the whole side menu -->
+                                </div>
+                            </div>
+                            <!-- 1 panel -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading-2">
+                                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-7" aria-expanded="false" aria-controls="collapse-2">Chapter 7: Surround and Spatial Sound</a></h4>
+                                </div>
+                                <div id="collapse-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                    <div id="SideMenuC7"></div>
+                                    <!-- this is a super important div, it creates the whole side menu -->
+                                </div>
+                            </div>
+                            <!-- 1 panel -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading-2">
+                                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-8" aria-expanded="false" aria-controls="collapse-2">Chapter 8: Sound and Meaning</a></h4>
+                                </div>
+                                <div id="collapse-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                    <div id="SideMenuC8"></div>
+                                    <!-- this is a super important div, it creates the whole side menu -->
+                                </div>
+                            </div>
+                            <!-- 1 panel -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading-2">
+                                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-9" aria-expanded="false" aria-controls="collapse-2">Chapter 9: Sound for Story</a></h4>
+                                </div>
+                                <div id="collapse-9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                    <div id="SideMenuC9"></div>
+                                    <!-- this is a super important div, it creates the whole side menu -->
+                                </div>
+                            </div>
+                            <!-- 1 panel -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading-2">
+                                    <h4 class="panel-title"><a class="collapsed caretwhite" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-10" aria-expanded="false" aria-controls="collapse-2">Chapter 10: Conclusions and Wrap-Up</a></h4>
+                                </div>
+                                <div id="collapse-10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                    <div id="SideMenuC10"></div>
+                                    <!-- this is a super important div, it creates the whole side menu -->
+                                </div>
+                            </div>
+                            <!-- 1 panel -->
+                        </div>
+                    </row>
+                </aside>
+                <!--  /side navigation -->        
+                <div class="col-sm-9">
+                    <div class="content-area" id="primary">
+                        <div role="main" class="site-content" id="content">
+                            <header class="chapter-header"> <!-- main section framework -->
+                                <h1 class="entry-title" id="chaptdiv">EXERCISES</h1>
+                                <div id="exercise_div">
+                                    <h4 id="exerdiv" > Welcome to the Exercise Page!</h4>
+                                    <p id="paradiv"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                                    </p>
+                                    <div class="text-center" id="urldiv"><a id="urllink" href="www.nothing.com"></a></div>
+                                    <div class="exercisevideo text-center" id="videodiv"></div>
+                                    <div class="exercisevideo text-center" id="videodiv2"></div>
+                                    <div class="text-center" id="audiodiv"></div>
+                                    <div class="text-center" id="audiodiv2"></div>
+                                    <iframe class="text-center" id=iframediv src="" style="width:100%;" frameborder="0" scrolling="no" onload="resizeIframe(this)" onclick="resizeIframe(this)">Your browser doesn’t support the iframe tag.</iframe>
+                                </div>
+                            </header>
+                        </div>
                     </div>
-                  </div>
-            </div>
-        </div>
-    </div>
-</section>
-<footer id="footer" class="bg-color0">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3 block widget_text">
-                <h3>Latest News</h3>
-                <p> <i>Studying Sound</i> Can now be purchased on Amazon.ca !
-                </p>
-                 <a href="#" class="theme_btn color2">Buy on Amazon</a>
-            </div>
-            <div class="block col-sm-3">
-                <div class="block widget_news">
-                    <h3>Useful Links</h3>
-                </div>
-                <div class="tagcloud"> 
-                    <a href="#" class="tag-link">Exercises</a> <a href="#" class="tag-link">Tutorials</a> <a href="#" class="tag-link">Reading</a> <a href="#" class="tag-link">Listening</a> <a href="#" class="tag-link">Slide decks</a> <a href="#" class="tag-link">Contact</a>
                 </div>
             </div>
-            <div class="block col-sm-3">
-                <h3>Twitter Feed</h3>
-                <a class="twitter-timeline" href="https://twitter.com/studyingsound?ref_src=twsrc%5Etfw" data-tweet-limit="1">Tweets by studyingsound</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            <div class="col-sm-3 block widget_text">
-                <h3>Contact me!</h3>
-                <p id="social" >
-                    <a class="socialico-twitter" href="#" title="Twitter">#</a>
-                    <a class="socialico-linkedin" href="#" title="Lindedin">#</a>
-                </p>
+        </div>
+    </section>
+    <footer id="footer" class="bg-color0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 block widget_text">
+                    <h3>Latest News</h3>
+                    <p> <i>Studying Sound</i> Can now be purchased on Amazon.ca !
+                    </p>
+                    <a href="#" class="theme_btn color2">Buy on Amazon</a>
+                </div>
+                <div class="block col-sm-3">
+                    <div class="block widget_news">
+                        <h3>Useful Links</h3>
+                    </div>
+                    <div class="tagcloud"> 
+                        <a href="#" class="tag-link">Exercises</a> <a href="#" class="tag-link">Tutorials</a> <a href="#" class="tag-link">Reading</a> <a href="#" class="tag-link">Listening</a> <a href="#" class="tag-link">Slide decks</a> <a href="#" class="tag-link">Contact</a>
+                    </div>
+                </div>
+                <div class="block col-sm-3">
+                    <h3>Twitter Feed</h3>
+                    <a class="twitter-timeline" href="https://twitter.com/studyingsound?ref_src=twsrc%5Etfw" data-tweet-limit="1">Tweets by studyingsound</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-sm-3 block widget_text">
+                    <h3>Contact me!</h3>
+                    <p id="social" >
+                        <a class="socialico-twitter" href="#" title="Twitter">#</a>
+                        <a class="socialico-linkedin" href="#" title="Lindedin">#</a>
+                    </p>
+                </div>
             </div>
         </div>
+    </footer>
+    <section id="copyright" class="dark_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center">&copy; Copyright 2019. Karen Collins. <br> Site Design by Simpleflex. Customized by Charlotte Baker</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="preloader">
+      <div class="preloaderimg"></div>
     </div>
-</footer>     
 
 
-<div class="preloader">
-  <div class="preloaderimg"></div>
-</div>
+            <script src="js/vendor/respond.min.js"></script>
+            <script src="js/vendor/placeholders.min.js"></script>
+            <script src="js/vendor/jquery-1.10.2.min.js"></script>
+            <script src="js/vendor/bootstrap.min.js"></script>
+            <script src="js/vendor/hoverIntent.js"></script>
+            <script src="js/vendor/superfish.js"></script>
+            <script src="js/vendor/jquery.actual.min.js"></script>
+            <script src="js/vendor/jquery.elastislide.js"></script>
+            <script src="js/vendor/jquery.flexslider-min.js"></script>
+            <script src="js/vendor/jquery.prettyPhoto.js"></script>
+            <script src="js/vendor/jquery.easing.1.3.js"></script>
+            <script src="js/vendor/jquery.ui.totop.js"></script>
+            <script src="js/vendor/jquery.isotope.min.js"></script>
+            <script src="js/vendor/jquery.easypiechart.min.js"></script>
+            <script src='js/vendor/jflickrfeed.min.js'></script>
+            <script src="js/vendor/jquery.sticky.js"></script>
+            <script src='js/vendor/jquery.scrollTo-min.js'></script>
+            <script src='js/vendor/jquery.localscroll-min.js'></script>
+            <script src='twitter/jquery.tweet.min.js'></script>
+            <script src="js/plugins.js"></script>
+            <script src="js/main.js"></script>
 
+            <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+            <script type="text/javascript">stLight.options({publisher: "ur-6a7e320d-37d8-511-633d-4264e3ae8c", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+            <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
 
-        <script src="js/vendor/respond.min.js"></script>
-        <script src="js/vendor/placeholders.min.js"></script>
-        <script src="js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/vendor/hoverIntent.js"></script>
-        <script src="js/vendor/superfish.js"></script>
-        <script src="js/vendor/jquery.actual.min.js"></script>
-        <script src="js/vendor/jquery.elastislide.js"></script>
-        <script src="js/vendor/jquery.flexslider-min.js"></script>
-        <script src="js/vendor/jquery.prettyPhoto.js"></script>
-        <script src="js/vendor/jquery.easing.1.3.js"></script>
-        <script src="js/vendor/jquery.ui.totop.js"></script>
-        <script src="js/vendor/jquery.isotope.min.js"></script>
-        <script src="js/vendor/jquery.easypiechart.min.js"></script>
-        <script src='js/vendor/jflickrfeed.min.js'></script>
-        <script src="js/vendor/jquery.sticky.js"></script>
-        <script src='js/vendor/jquery.scrollTo-min.js'></script>
-        <script src='js/vendor/jquery.localscroll-min.js'></script>
-        <script src='twitter/jquery.tweet.min.js'></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+            <script>  
+            // create the side navigation 
 
-        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-        <script type="text/javascript">stLight.options({publisher: "ur-6a7e320d-37d8-511-633d-4264e3ae8c", doNotHash: false, doNotCopy: false, hashAddressBar: false});
-        </script>
-       
-        <script>  
-        // create the side navigation 
-            
-            $(document).ready(function(){
-            for(let j=1; j < 11; j++) {
-              $.getJSON("documents/Exercises-Chapter-"+ j +".json", function(result){ // result is the variable that carries the json 
-                $.each(result, function(i, field){                    
-                    var para = document.createElement("div");
-                    para.className = "panel-body indenting";
-                    para.innerHTML = "<a id="+'"'+i+'"'+">" + result[i].exerciseName + "</a>";                    
-                    document.getElementById("SideMenuC"+j).appendChild(para);
-                    
-                });
+                $(document).ready(function(){
+                for(let j=1; j < 11; j++) {
+                  $.getJSON("documents/Exercises-Chapter-"+ j +".json", function(result){ // result is the variable that carries the json 
+                    $.each(result, function(i, field){                    
+                        var para = document.createElement("div");
+                        para.className = "panel-body indenting";
+                        para.innerHTML = "<a id="+'"'+i+'"'+">" + result[i].exerciseName + "</a>";                    
+                        document.getElementById("SideMenuC"+j).appendChild(para);
+
+                    });
+                  }); 
+                }
               }); 
-            }
-          }); 
-          
-              
-        </script>  
-         
-        <script>  
-            // switch content on click
-            $(document).ready(function(){
-                document.getElementById("accordion").addEventListener("click",function(e) { // required for event delgation - https://davidwalsh.name/event-delegate
-                    var buttonid = $(event.target)[0].id; // get the id of the thing clicked ex. E1.1
-                    var jsonpath = "";
-                    buttonid.startsWith("E1") ? jsonpath = "documents/Exercises-Chapter-1.json" // if else for which json to get
-                    :buttonid.startsWith("E2") ? jsonpath = "documents/Exercises-Chapter-2.json"
-                    :buttonid.startsWith("E3") ? jsonpath = "documents/Exercises-Chapter-3.json"
-                    :buttonid.startsWith("E4") ? jsonpath = "documents/Exercises-Chapter-4.json"
-                    :buttonid.startsWith("E5") ? jsonpath = "documents/Exercises-Chapter-5.json"
-                    :buttonid.startsWith("E6") ? jsonpath = "documents/Exercises-Chapter-6.json"
-                    :buttonid.startsWith("E7") ? jsonpath = "documents/Exercises-Chapter-7.json"
-                    :buttonid.startsWith("E8") ? jsonpath = "documents/Exercises-Chapter-8.json"
-                    :buttonid.startsWith("E9") ? jsonpath = "documents/Exercises-Chapter-9.json"
-                    :buttonid.startsWith("E10") ? jsonpath = "documents/Exercises-Chapter-10.json"
-                    : console.log("normal button");
-                   
 
-                    $.getJSON(jsonpath, function(result){ // jsonpath decides which json to load, result is the variable that carries the json   
-                        $.each(result, function(i, field){ // field is each entire object, i = the names of each object
-                            if (i === buttonid) {
-                                
-                                // result is the same as = 
-                                //var data = JSON.stringify(result);
-                                //var json = JSON.parse(data);
 
-                                document.getElementById("chaptdiv").innerHTML = result[i].chapterName;
-                                document.getElementById("exerdiv").innerHTML = result[i].exerciseName;
-                                
-                                // break written content into paragraphs if is an array
-                                if(Array.isArray(result[i].writtenContent)) {
-                                    var html = "";
-                                    for(var x=0; x < result[i].writtenContent.length; x++){
-                                        html += "<p>" + result[i].writtenContent[x] + "</p>";
+            </script>  
+
+            <script>  
+                // switch content on click
+                $(document).ready(function(){
+                    document.getElementById("accordion").addEventListener("click",function(e) { // required for event delgation - https://davidwalsh.name/event-delegate
+                        var buttonid = $(event.target)[0].id; // get the id of the thing clicked ex. E1.1
+                        var jsonpath = "";
+                        buttonid.startsWith("E1") ? jsonpath = "documents/Exercises-Chapter-1.json" // if else for which json to get
+                        :buttonid.startsWith("E2") ? jsonpath = "documents/Exercises-Chapter-2.json"
+                        :buttonid.startsWith("E3") ? jsonpath = "documents/Exercises-Chapter-3.json"
+                        :buttonid.startsWith("E4") ? jsonpath = "documents/Exercises-Chapter-4.json"
+                        :buttonid.startsWith("E5") ? jsonpath = "documents/Exercises-Chapter-5.json"
+                        :buttonid.startsWith("E6") ? jsonpath = "documents/Exercises-Chapter-6.json"
+                        :buttonid.startsWith("E7") ? jsonpath = "documents/Exercises-Chapter-7.json"
+                        :buttonid.startsWith("E8") ? jsonpath = "documents/Exercises-Chapter-8.json"
+                        :buttonid.startsWith("E9") ? jsonpath = "documents/Exercises-Chapter-9.json"
+                        :buttonid.startsWith("E10") ? jsonpath = "documents/Exercises-Chapter-10.json"
+                        : console.log("normal button");
+
+
+                        $.getJSON(jsonpath, function(result){ // jsonpath decides which json to load, result is the variable that carries the json   
+                            $.each(result, function(i, field){ // field is each entire object, i = the names of each object
+                                if (i === buttonid) {
+
+                                    // result is the same as = 
+                                    //var data = JSON.stringify(result);
+                                    //var json = JSON.parse(data);
+
+                                    document.getElementById("chaptdiv").innerHTML = result[i].chapterName;
+                                    document.getElementById("exerdiv").innerHTML = result[i].exerciseName;
+
+                                    // break written content into paragraphs if is an array
+                                    if(Array.isArray(result[i].writtenContent)) {
+                                        var html = "";
+                                        for(var x=0; x < result[i].writtenContent.length; x++){
+                                            html += "<p>" + result[i].writtenContent[x] + "</p>";
+                                        }
+                                        document.getElementById("paradiv").innerHTML = html;     
+                                    } else {
+                                        document.getElementById("paradiv").innerHTML = result[i].writtenContent;
                                     }
-                                    document.getElementById("paradiv").innerHTML = html;     
+
+
+                            // displaying different types of content
+                                if('video' in field) {
+                                    document.getElementById("videodiv").innerHTML = '<iframe id="frame1" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+                                    document.getElementById('frame1').src = result[i].video;  
                                 } else {
-                                    document.getElementById("paradiv").innerHTML = result[i].writtenContent;
+                                    document.getElementById("videodiv").innerHTML = '';
                                 }
+                                if('video2' in field) {
+                                    document.getElementById("videodiv2").innerHTML = '<iframe id="frame2" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+                                    document.getElementById('frame2').src = result[i].video2;  
+                                } else {
+                                    document.getElementById("videodiv2").innerHTML = '';
+                                }
+                                if('audio' in field){
+                                    document.getElementById("audiodiv").innerHTML = '<h5 id="audioCaption"></h5><audio id="audio" controls><source src="horse.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
+                                    document.getElementById('audio').src = result[i].audio;
+                                    document.getElementById('audioCaption').innerHTML = result[i].audioCaption;
+                                }
+                                else {
+                                  document.getElementById("audiodiv").innerHTML = '' 
+                                    document.getElementById('audioCaption').innerHTML = ''; // when the audio hasn't existed yet this creates error (cause the element doesnt exist)
+                                }
+                                if('audioCaption' in field == false && 'audio' in field ){
+                                    document.getElementById('audioCaption').innerHTML = 'Example';
+                                    console.log("not in feild!");
+                                }
+                                if('audio2' in field) {
+                                    document.getElementById("audiodiv2").innerHTML = '<audio id="audio2" controls><source src="horse.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
+                                    document.getElementById('audio2').src = result[i].audio2;  
+                                } else {
+                                    document.getElementById("audiodiv2").innerHTML = ''
+                                }
+                                if('url' in field) {
+                                    document.getElementById("urldiv").innerHTML = '<a id="urllink" style="color:blue" href="www.nothing.com">words</a>'
+                                    document.getElementById('urllink').href = result[i].url; 
+                                    document.getElementById("urllink").innerHTML = result[i].url;
+                                } else {
+                                    document.getElementById("urldiv").innerHTML = ''
+                                }
+                                if('iframe' in field){
+                                    document.getElementById("iframediv").src = result[i].iframe;
+                                    console.log(result[i].iframe);
+                                } else {
+                                    document.getElementById("iframediv").src = '';
+                                    document.getElementById("iframediv").innerHTML = ''
+                                    document.getElementById("iframediv").style.display = 'none'
+                                }
+                            }
+                        });    
+                    });
+                  });
+                }); // getJSON OG code : https://www.w3schools.com/jquery/ajax_getjson.asp 
 
-
-                        // displaying different types of content
-                            if('video' in field) {
-                                document.getElementById("videodiv").innerHTML = '<iframe id="frame1" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-                                document.getElementById('frame1').src = result[i].video;  
-                            } else {
-                                document.getElementById("videodiv").innerHTML = '';
-                            }
-                            if('video2' in field) {
-                                document.getElementById("videodiv2").innerHTML = '<iframe id="frame2" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-                                document.getElementById('frame2').src = result[i].video2;  
-                            } else {
-                                document.getElementById("videodiv2").innerHTML = '';
-                            }
-                            if('audio' in field){
-                                document.getElementById("audiodiv").innerHTML = '<audio id="audio2" controls><source src="horse.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
-                                document.getElementById('audio2').src = result[i].audio;
-                            }
-                            else {
-                              document.getElementById("audiodiv").innerHTML = ''  
-                            }
-                            if('audio2' in field) {
-                                document.getElementById("audiodiv2").innerHTML = '<audio id="audio3" controls><source src="horse.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
-                                document.getElementById('audio3').src = result[i].audio2;  
-                            } else {
-                                document.getElementById("audiodiv2").innerHTML = ''
-                            }
-                            if('url' in field) {
-                                document.getElementById("urldiv").innerHTML = '<a id="urllink" style="color:blue" href="www.nothing.com">words</a>'
-                                document.getElementById('urllink').href = result[i].url; 
-                                document.getElementById("urllink").innerHTML = result[i].url;
-                            } else {
-                                document.getElementById("urldiv").innerHTML = ''
-                            }
-                            if('iframe' in field){
-                                document.getElementById("iframediv").src = result[i].iframe;
-                                console.log(result[i].iframe);
-                            } else {
-                                document.getElementById("iframediv").src = '';
-                                document.getElementById("iframediv").innerHTML = ''
-                                document.getElementById("iframediv").style.display = 'none'
-                            }
-                        }
-                    });    
-                });
-              });
-            }); // getJSON OG code : https://www.w3schools.com/jquery/ajax_getjson.asp 
-    
-      </script> 
-    </body>
+          </script> 
+</body>
 </html>
