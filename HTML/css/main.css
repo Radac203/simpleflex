@@ -1,15 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 /*override bootstrap*/
-/*Charlotte Override bootstrap start */
 
 .dropdown > a {cursor: pointer;}
+
 /* index */
 img.leftcontent_image {padding-left: 30px;}
 img.boom {padding-right: 30px;}
 thumbnail.theme_button {align-content: center;}
-
 .mini_exercise_div {background-color: white; border-radius: 25px;  box-sizing: border-box; display: inline-block;}
+#progress::before {display: block; content: " "; visibility: hidden; pointer-events: none;}
 
 /* reading and listening */
 #accordian_setup .heading1 {background-color: #fbcf61; font-weight: 200; color: #3a3a3a; border-radius: 2px;}
@@ -23,16 +23,40 @@ thumbnail.theme_button {align-content: center;}
 #chapters > p {font-size: 17px; margin: 0 0 2px}
 #chapters > h3 {font-size: 17px; font-weight: bold; margin-top: 3px; margin-bottom: 3px;}
 #chapter {padding:80px 0 0;}
-
-
-/* gonna see how this goes */
-#progress::before { 
-  display: block; 
-  content: " "; 
-  visibility: hidden; 
-  pointer-events: none;
+.listening .item_title:before {
+    /*display: block;
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 10px;
+    top: -10px;
+    left: 50%;
+    margin-left: -15px;
+    border-bottom: 10px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    */
+    display: block;
+    content: "";
+    position: absolute;
+    width: 78px;
+    height: 26px;
+    top: 40px;
+    left: 40%;
+    
+    border-top: 26px solid #fbcf61;
+    border-left: 38px solid transparent;
+    border-right: 38px solid transparent;
+    border-bottom: none;
 }
-/*end of gonna see how this goes */
+
+/*other resources*/
+#otherList article {border-top: 10px solid #ff6f6f; border-right: 0px solid #ff6f6f; padding-top: 20px;}
+#otherList .entry-title {font-size: 18px;}
+#otherList .entry-content {padding-left: 20px; padding-right: 20px;}
+
+/*audacity*/
+#portfolioContainer {list-style-type: none;}
 
 /* reading page */
 .author {font-style: italic; font-weight: 100;}
@@ -67,7 +91,7 @@ thumbnail.theme_button {align-content: center;}
 
 }
 
-/* exersize sidenav */
+/* exercise sidenav */
 #exercise_menu .panel-group {margin-top: 50px;} /* not sure how I feel about this */
 #exercise_menu .panel-default div + div { border-top: 1px solid #444444; padding-top: 6px; margin-top: 6px;} /*lines between exercises */
 #exercise_menu .panel-title > a {font-weight: 700; font-size: 14px;}
@@ -76,21 +100,22 @@ thumbnail.theme_button {align-content: center;}
 #exercise_menu .panel-default > .panel-heading {
     padding-left: 0px;
 }
+.simplebar-scrollbar:before {background-color: white;}
+.simplebar-scroll-content {box-sizing: content-box;}
 
 /*exersize setup */
 .chapter-header .entry-title {color: #fbcf61; font-size: 32px; font-weight: 700; border-bottom: 1px solid; padding-bottom: 12px; margin-bottom: 20px;}
 #exercise_div {background-color: white; border-radius: 25px; padding: 70px; min-height: 500px;}
 #exercise_div > h4 {color:black; font-size: 36px; font-weight: 100; margin-top: 0px; margin-bottom: 16px;}
-
+#audioCaption1,#audioCaption2, #audioCaption3, #audioCaption4, #audioCaption5, #audioCaption6, #audioCaption7 {color:black; text-transform: uppercase;}
+#paradiv {color: black}
 .scrollable {
   height: 75vh;
-  overflow-y: scroll;
+  overflow-y: hidden scroll;
 }
 /* Handle */
 /* width */
-.scrollable::-webkit-scrollbar {
-  width: 1px;
-}
+.scrollable::-webkit-scrollbar {width: 1px;}
 
 /* Track 
 .scrollable::-webkit-scrollbar-track {
@@ -99,23 +124,13 @@ thumbnail.theme_button {align-content: center;}
 }
  
 /* Handle */
-.scrollable::-webkit-scrollbar-thumb {
-  background: white; 
-  border-radius: 10px;
-}
-#frame2 {
-    width = 50%;
-}
+.scrollable::-webkit-scrollbar-thumb {background: white; border-radius: 10px;}
+#frame2 {width = 50%;}
 
-/*slideshow page*/
+/*slidedecks*/
 
-.preview {
-    top: 20px;
-}
-.download{
-    bottom: 20px;
-    
-}
+.preview {top: 20px;}
+.download {bottom: 20px;}
 a.preview, a.download {
     display: block;
     height: 60px;
@@ -134,13 +149,11 @@ a.preview, a.download {
     -ms-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
 }
-a.preview:hover, a.download:hover {
-    border: 1px solid white;
-    color: #ff6f6f;
-    background-color: white; 
-}
+a.preview:hover, a.download:hover {border: 1px solid white; color: #ff6f6f; background-color: white;}
 
-/*Charlotte Override bootstrap End */
+#slideshows img {height: 195px; overflow: hidden;}
+
+/*simpleflex bootstrap override*/
 .clearfix {clear: both;}
 .navbar-brand {float: none; padding: 0;}
 .nav > li > a:hover, .nav > li > a:focus, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {background-color: transparent;}
@@ -318,7 +331,7 @@ html, body {position: relative; width: 100%; height: 100%;}
 body {
 font-family: 'Raleway', sans-serif;
 font-weight: 300;
-color: #989898;
+color: #c4c4c4;
 font-size: 16px;
 line-height: 24px;
 background: #fff;
@@ -379,6 +392,7 @@ a {
     -o-transition: all 0.3s linear 0s;
     -ms-transition: all 0.3s linear 0s;
     transition: all 0.3s linear 0s;
+    cursor: pointer;
 }
 
 a:hover {
@@ -1420,7 +1434,7 @@ top: 97px;
     width: 100%;
 }
 
-.horizontal_slider_item:hover img, .isotope-item:hover img {opacity: 0.2;
+.horizontal_slider_item:hover img, .isotope-item:hover img {opacity: 0.05;
    /* -moz-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -1431,11 +1445,11 @@ top: 97px;
 /*gallery*/
 #portfolioContainer article, #readingsContainer article {margin-top: 15px;}
 
-ul#portfolioContainer, ul#readingsContainer {padding: 0; margin: 0; list-style: none; text-align: center; }
+ul#portfolioContainer, ul#readingsContainer {padding: 0; margin: 0; list-style: none; text-align: center;}
 #readingsContainer
 #portfolio h4 {margin-top: 0;}
-#portfolio .isotope-item {max-width: 100%; overflow: hidden; float: left; width: 25%; margin-left: -1px; margin-bottom: 30px; list-style: none;}
-@media screen and (max-width: 991px) {
+#portfolio .isotope-item {max-width: 100%; overflow: hidden; float: left; /*width: 25%; margin-left: -1px; margin-bottom: 30px;*/ list-style: none;}
+/*@media screen and (max-width: 991px) {
     #portfolio .isotope-item {width:33.3333%;}
 }
 @media screen and (max-width: 800px) {
@@ -1443,8 +1457,8 @@ ul#portfolioContainer, ul#readingsContainer {padding: 0; margin: 0; list-style: 
 }
 @media screen and (max-width: 600px) {
     #portfolio .isotope-item {width:100%;}
-}
-
+}*/
+#slideshows .isotope-item {width: 25%; margin-left: -1px; margin-bottom: 30px;}
 
 #filtrable {padding: 0;}
 #filtrable li {
@@ -1605,7 +1619,7 @@ h2.entry-title a:hover {color:#ff6f6f;}
 .entry-meta a {color:#fff;}
 .entry-meta a:hover{color:#ff6f6f;}
 .blog .entry-tags {margin-top: 29px; position: relative; background-color: #fff; color:#343434; padding: 23px 40px 19px; border-bottom: 10px solid #fbcf61;}
-.video_description p {font-size: 12px; line-height: 20px; margin-bottom: 0px; margin-top: 0px;}
+.video_description p {font-size: 12px; line-height: 20px; margin-bottom: 0px; margin-top: 0px;  color:white !important; }
 .format-small-image .entry-tags  {border-color: #ff6f6f;}
 .format-gallery .entry-tags  {border-color: #a7d163;}
 .entry-tags a {text-transform: uppercase; font-weight: 700; font-size: 12px;}
@@ -2749,7 +2763,7 @@ a.socialico-pint:before {background-color:#00bdec;}
 .arrow-icon-right:before { content: '\e820'; }
 
 
-/*prettyPhoto*/
+/*prettyPhoto*//*
 div.facebook .pp_expand{background:url(../img/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;cursor:pointer}
 div.facebook .pp_expand:hover{background:url(../img/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;cursor:pointer}
 div.facebook .pp_contract{background:url(../img/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;cursor:pointer}
@@ -2767,6 +2781,7 @@ div.facebook .pp_nav .pp_play{background:url(../img/prettyPhoto/facebook/sprite.
 div.facebook .pp_nav .pp_pause{background:url(../img/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;height:22px;width:22px}
 div.facebook .pp_next:hover{background:url(../img/prettyPhoto/facebook/btnNext.png) center right no-repeat;cursor:pointer}
 div.facebook .pp_previous:hover{background:url(../img/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;cursor:pointer}
+*/
 div.pp_pic_holder a:focus{outline:none}
 div.pp_overlay{background:#000;display:none;left:0;position:absolute;top:0;width:100%;z-index:9500}
 div.pp_pic_holder{display:none;position:absolute;width:100px;z-index:10000}
@@ -2775,11 +2790,11 @@ div.pp_pic_holder{display:none;position:absolute;width:100px;z-index:10000}
 .pp_content_container{position:relative;text-align:left;width:100%}
 .pp_content_container .pp_left{padding-left:20px}
 .pp_content_container .pp_right{padding-right:20px}
-.pp_content_container .pp_details{float:left;/*margin:10px 0 2px;*/ padding:7px 10px; background-color: #fff;}
+/*.pp_content_container .pp_details{float:left;/*margin:10px 0 2px;* / padding:7px 10px; background-color: #fff;}*/
 .pp_description{display:none;margin:0}
-.pp_social{float:left;margin:0}
+/*.pp_social{float:left;margin:0}
 .pp_social .facebook{float:left;margin-left:5px;width:55px;overflow:hidden}
-.pp_social .twitter{float:left}
+.pp_social .twitter{float:left}*/
 .pp_nav{clear:right;float:left;margin:3px 10px 0 0}
 .pp_nav p{float:left;white-space:nowrap;margin:2px 4px}
 .pp_nav .pp_play,.pp_nav .pp_pause{float:left;margin-right:4px;text-indent:-10000px}
@@ -2808,4 +2823,4 @@ div.ppt{color:#fff;display:none;font-size:17px;z-index:9999;margin:0 0 5px 15px}
 .pp_top .pp_middle,.pp_bottom .pp_middle{height:20px;left:20px;position:absolute;right:20px}
 * html .pp_top .pp_middle,* html .pp_bottom .pp_middle{left:0;position:static}
 .pp_top .pp_right,.pp_bottom .pp_right{height:20px;left:auto;position:absolute;right:0;top:0;width:20px}
-.pp_fade,.pp_gallery li.default a img{display:none}
+.pp_fade,.pp_gallery li.default a img{display:none} 

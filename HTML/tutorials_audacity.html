@@ -3,57 +3,53 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        
-        <title>Gallery Single Item</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/animations.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-
-<section id="header" class="bg-color0"> 
+<head>
+    <meta charset="utf-8">
+    <title>Audacity Tutorials</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+   
+</head>
+<body>
+    <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+    <section id="header" class="bg-color0">
     <div class="container">
         <div class="row">
-            <a class="navbar-brand" href="#top"><img src=img/logospacing.png></a>
+            <a class="navbar-brand" href="#top"><img src=img/logospacing.png alt="studying sound logo"></a>
             <div class="col-sm-12 mainmenu_wrap">
                 <div class="main-menu-icon visible-xs"><span></span><span></span><span></span></div>
                 <ul id="mainmenu" class="nav menu sf-menu responsive-menu superfish">
                     <li class="">
-                        <a href="index.html">About</a>
+                        <a href="#features">About</a>
                     </li>
                     <li class="">
                         <a href="Exercises-page.html">Exercises</a>
                     </li>
-                    <li class="dropdown">
-                        <a>Tutorials</a>
-                        <ul class="nav dropdown-menu">
-                            <li class="">
-                                <a href="./tutorials_audacity.html">Audacity</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="./tutorials_audacity.html" >Tutorials</a>
                     </li>
                     <li class="dropdown">
                         <a>Resources</a>
                         <ul class="nav dropdown-menu">
                             <li class="">
-                                <a href="Slideshows.html">Slide Decks</a>
+                                <a href="slidedecks.html">Slide Decks</a>
                             </li>
                             <li class="">
                                 <a href="Listening.html">Listening</a>
                             </li>
                             <li class="">
                                 <a href="Reading.html">Reading</a>
+                            </li>
+                            <li class="">
+                                <a href="otherResources.html">Other</a>
                             </li>
                         </ul>
                     </li>
@@ -64,195 +60,911 @@
             </div>
         </div>
     </div>
-</section> <!--Top Nav Bar-->
-
-<!--
-<section id="abovecontent" class="grey_section">
-  <div class="container"><div class="row">
-      <div class="block col-sm-12">
-        <ul class="breadcrumb">
-          <li><a href="#" class="pathway">Home</a></li>
-          <li><span>Gallery Item</span></li>
-        </ul>
-      </div>
-  </div></div>
 </section>
--->
-<!--Middle content -->
-
-
- 
-
-
-        <!--videos-->
-<section id="belowcontent" class="dark_section">
-    <div class="container">
-     <div class="row">
-          <div class="col-sm-12 text-center">
-              <h2 class="block-header">Audacity Tutorials</h2>
-              <p>Learn the basics and effects using Audacity</p>
-          </div>
-      </div>
-        <div id="portfolio_wrapper">
-        <div class="text-center filters"> <!--video filter menu-->
-          <ul id="filtrable">
-            <li><a class="selected" data-filter="*" href="#">All</a></li>
-            <li><a data-filter=".basicsfilter" href="#" class="">The Basics</a></li>
-            <li><a data-filter=".effectsfilter" href="#" class="">Effects</a></li>
-          </ul>
-          <div class="clearfix"></div>
+    <section id="portfolio" class="dark_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="block-header">Audacity Tutorials</h2>
+                </div>
+            </div>
+            <div id="portfolio_wrapper" class="row">
+                <div class="text-center filters col-sm-12">
+                    <ul id="filtrable">
+                        <li><a class="selected" data-filter="*" href="#">All</a></li>
+                        <li><a data-filter=".basicsfilter" href="#" class="">Basics</a></li>
+                        <li><a data-filter=".effectsfilter" href="#" class="">Effects</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- Items -->
+                <ul class="items-row row cols-3 portfolio filtrable clearfix isotope" id="portfolioContainer">
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/attackSplice.JPG" style="width:246px; height:170px; overflow:hidden" alt="attack splice" class="post-image">
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/attackSplice.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Attack Splice</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn to splice the attack of one file onto the tail of another file</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/binauralBeats.JPG" style="width:246px; height:170px; overflow:hidden" alt="{{image}}" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/binauralBeats.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Binaural Beats</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>When two sound waves of very close frequencies are played at the same time, the result is what are called binaural beats</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/clipping.JPG" style="width:246px; height:170px; overflow:hidden" alt="clipping" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/clipping.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Clipping</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Experiment with clipped audio and learn how to avoid it</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/attackSplice.JPG" style="width:246px; height:170px; overflow:hidden" alt="{{image}}" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/attackSplice.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Attack Splice</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn how to attack splice</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/compressor.JPG" style="width:246px; height:170px; overflow:hidden" alt="{{image}}" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/compressor.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Compression</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn how to compress files to minimize the difference between the quiet and loud sounds</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/dataCompression.JPG" style="width:246px; height:170px; overflow:hidden" alt="{{image}}" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/dataCompression.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Data Compression</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn about bit rates and compressing files using Audacity's export settings</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/distortion.JPG" style="width:246px; height:170px; overflow:hidden" alt="distortion" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/distortion.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Distortion</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Discover different distortion techniques for sound files</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/ducking.JPG" style="width:246px; height:170px; overflow:hidden" alt="ducking" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/ducking.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Ducking</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn about Audacity's automatic ducking features for voice-overs</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/EQ.JPG" style="width:246px; height:170px; overflow:hidden" alt="EQ" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/EQ.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">EQ</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Boost or reduce frequency bands in a sound file</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/echoAndDelay.JPG" style="width:246px; height:170px; overflow:hidden" alt="echoAndDelay" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/echoAndDelay.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Echo and Delay</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn the difference between the echo and delay effects in Audacity</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/fades.JPG" style="width:246px; height:170px; overflow:hidden" alt="fades" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/fades.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Fades</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn how to use fades an create custom fades</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/flanger.JPG" style="width:246px; height:170px; overflow:hidden" alt="flanger" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/flanger.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Flanger</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Use flanger plug-ins to alter the sound signal</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/ghostFundamental.JPG" style="width:246px; height:170px; overflow:hidden" alt="ghost Fundamental" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/ghostFundamental.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Ghost Fundamental</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn about ghost fundemental and how it affects the sound</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/harmonics.JPG" style="width:246px; height:170px; overflow:hidden" alt="harmonics" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/harmonics.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Harmonics</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Discover harmonics and the differences between types of waves</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/pluginsPC.JPG" style="width:246px; height:170px; overflow:hidden" alt="plugins PC" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/pluginsPC.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Install Plug-ins PC</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn how to install plug-ins into Audacity using a PC computer</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/pluginsMac.JPG" style="width:246px; height:170px; overflow:hidden" alt="Mac plugins" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/pluginsMac.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Install Plug-ins Mac</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn how to install plug-ins into Audacity using a Mac computer</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/mixAndRender.JPG" style="width:246px; height:170px; overflow:hidden" alt="mix And Render" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/mixAndRender.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Mix And Render</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Mix together and render multiple tracks</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/phaser.JPG" style="width:246px; height:170px; overflow:hidden" alt="phaser" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/phaser.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Phaser</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Bring tracks in and out of phase using the phaser effect in Audacity</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/pitchShift.JPG" style="width:246px; height:170px; overflow:hidden" alt="pitch Shift" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/pitchShiftmp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Pitch Shift</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Change the pitch of your track using the pitch shift effect</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/reverb.JPG" style="width:246px; height:170px; overflow:hidden" alt="reverb" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/reverb.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Reverb</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn about the effects of reverberation on your tracks</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/reverseEnvelopes.JPG" style="width:246px; height:170px; overflow:hidden" alt="reverse Envelopes" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/reverseEnvelopes.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Reverse Envelopes</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn how to reverse a sound file and edit the envelope of a sound file</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/samplerate.JPG" style="width:246px; height:170px; overflow:hidden" alt="samplerate" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/samplerate.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">sample rate</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn two different ways to change the sample rate of a track in Audacity</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/signalToNoise.JPG" style="width:246px; height:170px; overflow:hidden" alt="signalToNoise" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/signalToNoise.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Signal To Noise</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn about the concept 'signal to noise' using examples</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/sinewave.JPG" style="width:246px; height:170px; overflow:hidden" alt="sinewave" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/sinewave.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">sinewave</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>learn how to generate a sine wave in Audacity</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/spectrogram.JPG" style="width:246px; height:170px; overflow:hidden" alt="spectrogram" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/spectrogram.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Spectrogram and Plot Spectrum</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Take a look at the spectrogram feature in Audacity</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item basicsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/surroundMix.JPG" style="width:246px; height:170px; overflow:hidden" alt="surroundMix" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/surroundMix.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Surround Mix</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn how to manipulate the surround sound capabilities of your mix</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/tremoloVibrato.JPG" style="width:246px; height:170px; overflow:hidden" alt="tremolo and Vibrato" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/tremoloVibrato.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Tremolo and Vibrato</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn how to create different wavering effects</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/vocoderAndRingModulator.JPG" style="width:246px; height:170px; overflow:hidden" alt="vocoder And Ring Modulator" class="post-image">
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/vocoderAndRingModulator.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Vocoder And Ring Modulator</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Use a modulating soundwave to alter the input file</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/wahWah.JPG" style="width:246px; height:170px; overflow:hidden" alt="fades" class="wah-Wah" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/wahWah.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Wah-Wah</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Create the distinctive wah-wah sound using the wah-wah effect</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/waveInterference.JPG" style="width:246px; height:170px; overflow:hidden" alt="wave Interference" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/waveInterference.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Wave Interference</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn about how waves interfere with one another</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                    <li class="item col-sm-6 col-md-4 isotope-item effectsfilter">
+                        <div class="row">
+                            <article class="post format-video secondary_post clearfix">
+                                <div class="col-sm-6">
+                                    <header class="entry-header">
+                                        <div class="entry-thumbnail">
+                                            <img src="img/tutorial_thumbnails/filters.JPG" style="width:246px; height:170px; overflow:hidden" alt="filters" class="post-image" >
+                                            <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/filters.mp4?iframe=true&width=1000&height=500"></a>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="entry-content">
+                                        <h4 class="entry-title">
+                                            <a href="./blog-single.html" rel="bookmark">Filters</a>
+                                        </h4>
+                                        <div class="video_description">
+                                            <p>Learn about the different filters Audacity uses to create different effects</p>
+                                        </div>
+                                    </div>
+                                    <!-- .entry-content -->
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <!--video widget end-->
+                </ul>
+            </div>
+            <!--eof portfolio_wrapper-->
         </div>
-        </div> 
-        <div id="readingList">
-          <div class="row widget_from_blog filterable isotope clearfix" id="portfolioContainer"  > <!-- all videos div -->
-             <div id="readingList">
-             <div class="col-sm-4 filterable item isotope-item basicsfilter"> <!-- Video Widget: Start--> <!-- place filter name here -->
-              <div class="row">
-              <article class="post format-video secondary_post clearfix">
-                  <div class="col-sm-6">
-                    <header class="entry-header">
-                      <div class="entry-thumbnail">
-                        <img src="example/blog-secondary1.jpg" class="post-image" alt="">
-                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/binaural%20beats.mp4?iframe=true&width=1000&height=500"></a>
-
-                      </div>
-                     </header>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="entry-content">
-                      <h4 class="entry-title">
-                        <a href="./blog-single.html" rel="bookmark">Binaural Beats</a>
-                      </h4>
-                        <div class="video_description"><p>Learn about Binaural Beats!</p></div>
-                      
+    </section>
+    <!--footer -->
+    <footer id="footer" class="bg-color0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 block widget_text">
+                    <h3>Latest News</h3>
+                    <p> <i>Studying Sound</i> Can now be purchased on Amazon.ca !
+                    </p>
+                    <a href="#" class="theme_btn color2">Buy on Amazon</a>
+                </div>
+                <div class="block col-sm-3">
+                    <div class="block widget_news">
+                        <h3>Useful Links</h3>
                     </div>
-                    <!-- .entry-content -->
-                  </div>
-                  </article>
+                    <div class="tagcloud"> 
+                        <a href="Exercises-page.html" class="tag-link">Exercises</a> <a href="tutorials_audacity.html" class="tag-link">Tutorials</a> <a href="Reading.html" class="tag-link">Reading</a> <a href="Listening.html" class="tag-link">Listening</a> <a href="slidedecks.html" class="tag-link">Slide Decks</a> <a href="contact.html" class="tag-link">Contact</a>
+                    </div>
                 </div>
-            </div> 
+                <div class="block col-sm-3">
+                    <h3>Twitter Feed</h3>
+                    <a class="twitter-timeline" href="https://twitter.com/studyingsound?ref_src=twsrc%5Etfw" data-tweet-limit="1">Tweets by studyingsound</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-sm-3 block widget_text">
+                    <h3>Contact me!</h3>
+                    <p id="social" >
+                        <a class="socialico-twitter" href="#" title="Twitter">#</a>
+                        <a class="socialico-linkedin" href="#" title="Lindedin">#</a>
+                    </p>
+                </div>
+            </div>
         </div>
+    </footer>
+    <section id="copyright" class="dark_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center">&copy; Copyright 2019. Karen Collins. <br> Site Design by Simpleflex. Customized by Charlotte Baker</p>
+                </div>
+            </div>
         </div>
+    </section>
+    <div class="preloader">
+        <div class="preloaderimg"></div>
     </div>
-</section>
-
-
-<!--footer -->
-<footer id="footer" class="bg-color0">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3 block widget_text">
-                <h3>Latest News</h3>
-                <p> <i>Studying Sound</i> Can now be purchased on Amazon.ca !
-                </p>
-                 <a href="#" class="theme_btn color2">Buy on Amazon</a>
-            </div>
-            <div class="block col-sm-3">
-                <div class="block widget_news">
-                    <h3>Useful Links</h3>
-                </div>
-                <div class="tagcloud"> 
-                    <a href="#" class="tag-link">Exercises</a> <a href="#" class="tag-link">Tutorials</a> <a href="#" class="tag-link">Reading</a> <a href="#" class="tag-link">Listening</a> <a href="#" class="tag-link">Slide decks</a> <a href="#" class="tag-link">Contact</a>
-                </div>
-            </div>
-            <div class="block col-sm-3">
-                <h3>Twitter Feed</h3>
-                <a class="twitter-timeline" href="https://twitter.com/studyingsound?ref_src=twsrc%5Etfw" data-tweet-limit="1">Tweets by studyingsound</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            <div class="col-sm-3 block widget_text">
-                <h3>Contact me!</h3>
-                <p id="social" >
-                    <a class="socialico-twitter" href="#" title="Twitter">#</a>
-                    <a class="socialico-linkedin" href="#" title="Lindedin">#</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>   
-
-<section id="copyright" class="dark_section">
-  <div class="container"><div class="row">
+    <script src="js/vendor/respond.min.js"></script>
+    <script src="js/vendor/placeholders.min.js"></script>
+    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/hoverIntent.js"></script>
+    <script src="js/vendor/superfish.js"></script>
+    <script src="js/vendor/jquery.actual.min.js"></script>
+    <script src="js/vendor/jquery.elastislide.js"></script>
+    <script src="js/vendor/jquery.flexslider-min.js"></script>
+    <script src="js/vendor/jquery.prettyPhoto.js"></script>
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+    <script src="js/vendor/jquery.ui.totop.js"></script>
+    <script src="js/vendor/jquery.isotope.min.js"></script>
+    <script src="js/vendor/jquery.easypiechart.min.js"></script>
+    <script src='js/vendor/jflickrfeed.min.js'></script>
+    <script src="js/vendor/jquery.sticky.js"></script>
+    <script src='js/vendor/jquery.scrollTo-min.js'></script>
+    <script src='js/vendor/jquery.localscroll-min.js'></script>
+    <script src='twitter/jquery.tweet.min.js'></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>  
     
-    <div class="col-sm-12"><p class="text-center">&copy; Copyright 2014. Simpleflex Template by <a href="http://modernwebtemplates.com" target="_blank">MW Templates</a></p></div>
+    <script type="text/javascript">
 
-  </div></div>
-</section>
-
-<div class="preloader">
-  <div class="preloaderimg"></div>
-</div>
-
-  
-        <script src="js/vendor/respond.min.js"></script>
-        <script src="js/vendor/placeholders.min.js"></script>
-        <script src="js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/vendor/hoverIntent.js"></script>
-        <script src="js/vendor/superfish.js"></script>
-        <script src="js/vendor/jquery.actual.min.js"></script>
-        <script src="js/vendor/jquery.elastislide.js"></script>
-        <script src="js/vendor/jquery.flexslider-min.js"></script>
-        <script src="js/vendor/jquery.prettyPhoto.js"></script>
-        <script src="js/vendor/jquery.easing.1.3.js"></script>
-        <script src="js/vendor/jquery.ui.totop.js"></script>
-        <script src="js/vendor/jquery.isotope.min.js"></script>
-        <script src="js/vendor/jquery.easypiechart.min.js"></script>
-        <script src='js/vendor/jflickrfeed.min.js'></script>
-        <script src="js/vendor/jquery.sticky.js"></script>
-        <script src='js/vendor/jquery.scrollTo-min.js'></script>
-        <script src='js/vendor/jquery.localscroll-min.js'></script>
-        <script src='twitter/jquery.tweet.min.js'></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/mustache.min.js"></script>
-        
-        
-        
-        
-        <script id="tutorials" type="text/template">
-            {{#a_tutorials}}
-            <div class="col-sm-4 filterable item isotope-item {{filter}}"> 
-              <div class="row">
-                <article class="post format-video secondary_post clearfix">
-                  <div class="col-sm-6">
-                    <header class="entry-header">
-                      <div class="entry-thumbnail">
-                        <img src="img/tutorial _thumbnails/{{image}}" style="width:246px; height:170px; overflow:hidden" alt="{{image}}" class="post-image" alt="">
-                        <a class="video-view prettyPhoto" title="" rel="prettyPhoto" href="videos/{{video}}?iframe=true&width=1000&height=500"></a>
-
-                      </div>
-                     </header>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="entry-content">
-                      <h4 class="entry-title">
-                        <a href="./blog-single.html" rel="bookmark">{{title}}</a>
-                      </h4>
-                        <div class="video_description"><p>{{description}}</p></div>
-
-                    </div>
-                    <!-- .entry-content -->
-                  </div>
-                  </article>
-                </div>
-            </div> <!--video widget end--> 
-            {{/a_tutorials}}
-        </script>
-        
-
-        
-        <script type="text/javascript"> // use template and json to create html
-            $(document).ready(function(){
-                
-                $.getJSON('JSON/audacity_tutorials.JSON', function(data) { 
-                    var template1 = $('#tutorials').html(); 
-                    var html = Mustache.to_html(template1, data); 
-                    console.log(template1);
-                    $('#portfolioContainer').html(html);
-                });
-            });
-        </script>
- 
-
-    </body>
+        $(document).ready(function(){
+                    document.getElementsByClassName("video-view").addEventListener("click",function(e) {
+                        document.getElementsByClassName("pp_social").innerHTML = "";
+                    });
+        });
+                                                                                   
+</script>
+    
+</body>
 </html>

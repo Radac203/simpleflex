@@ -83,7 +83,7 @@ jQuery(document).ready(function() {
 
         $container.imagesLoaded( function(){
             $container.isotope({
-                layoutMode : 'fitRows',
+                layoutMode : 'masonry',
                 animationEngine: 'best-available',
                 animationOptions: {
                   queue: false,
@@ -98,7 +98,7 @@ jQuery(document).ready(function() {
             // filter items when filter link is clicked
             $('#filtrable a').on('click', function(e){
                 var selector = $(this).attr('data-filter');
-                $container.isotope({ filter: selector, layoutMode : 'fitRows' });
+                $container.isotope({ filter: selector, layoutMode : 'masonry' });
                 // return false;
                 e.preventDefault();
             });

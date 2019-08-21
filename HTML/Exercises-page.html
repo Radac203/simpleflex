@@ -357,13 +357,11 @@
                                     document.getElementById('audio').src = result[i].audio;
                                     document.getElementById('audioCaption').innerHTML = result[i].audioCaption;
                                 }
-                                else {
-                                  document.getElementById("audiodiv").innerHTML = '' 
-                                    document.getElementById('audioCaption').innerHTML = ''; // when the audio hasn't existed yet this creates error (cause the element doesnt exist)
+                                else if(document.getElementById("audio")) {
+                                  document.getElementById("audiodiv").innerHTML = '';
                                 }
                                 if('audioCaption' in field == false && 'audio' in field ){
                                     document.getElementById('audioCaption').innerHTML = 'Example';
-                                    console.log("not in feild!");
                                 }
                                 if('audio2' in field) {
                                     document.getElementById("audiodiv2").innerHTML = '<audio id="audio2" controls><source src="horse.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
